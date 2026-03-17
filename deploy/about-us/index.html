@@ -7751,6 +7751,79 @@
       //# sourceURL=../wp-includes/js/wp-emoji-loader.min.js
     </script>
 
+
+  <!-- Custom Chatbot Widget -->
+  <div id="chatbot-widget">
+    <div id="chatbot-button" onclick="toggleChat()">
+      <svg viewBox="0 0 24 24">
+        <path d="M20,2H4C2.9,2,2,2.9,2,4v18l4-4h14c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M20,16H5.2L4,17.2V4h16V16z" />
+      </svg>
+    </div>
+    <div id="chatbot-window">
+      <header>
+        <span>AI.Parenting</span>
+        <span onclick="toggleChat()" style="cursor:pointer">×</span>
+      </header>
+      <div id="chat-messages">
+        <div class="message bot-msg">Hello! I'm your AI.Parenting assistant. How can I help you regarding our preschool
+          today?
+        </div>
+      </div>
+      <div id="chat-input-area">
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button onclick="sendMessage()"
+          style="background:none; border:none; color:#6c5ce7; font-weight:bold; cursor:pointer">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Float Enquiry Button -->
+  <div id="float-enquiry" onclick="openEnquiry()">Enquire Now</div>
+
+  <!-- Enquiry Modal -->
+  <div id="enquiry-modal">
+    <div id="enquiry-form-container">
+      <span class="close-modal" onclick="closeEnquiry()">×</span>
+      <h2>Enquire Now</h2>
+      <p>Please fill out the form below and we will get back to you.</p>
+      <form onsubmit="submitEnquiry(event)">
+        <label>Child's Name</label>
+        <input type="text" name="child_name" required>
+
+        <label>Parent's Name</label>
+        <input type="text" name="parent_name" required>
+
+        <label>Phone Number</label>
+        <input type="tel" name="phone" required>
+
+        <label>Centre</label>
+        <select name="centre" required>
+          <option value="">Select Centre</option>
+          <option>Nerul West, Navi Mumbai</option>
+          <option>Nerul East, Navi Mumbai</option>
+          <option>Marunji, Pune</option>
+          <option>Pune (Wakad)</option>
+          <option>Ulwe</option>
+          <option>Uran City</option>
+        </select>
+
+        <label>Interested Program</label>
+        <select name="program">
+          <option>Little Explorers (Playgroup)</option>
+          <option>Curious Cubs (Nursery)</option>
+          <option>Creative Crawlers</option>
+          <option>Adventurous Aces</option>
+        </select>
+
+        <label>Your Message</label>
+        <textarea name="message" rows="3"></textarea>
+
+        <button type="submit" class="submit-btn" style="background:#6c5ce7; font-family: inherit;">Submit
+          Enquiry</button>
+      </form>
+    </div>
+  </div>
+  <script src="../wp-content/custom-widgets.js"></script>
 </body>
 
 </html>

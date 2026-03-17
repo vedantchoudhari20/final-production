@@ -1,6 +1,6 @@
 const siteKnowledge = {
     "name": "The Nurturing Roots",
-    "locations": ["Nerul, Navi Mumbai", "Kharadi, Pune", "Ulwe"],
+    "locations": ["Nerul West, Navi Mumbai", "Nerul East, Navi Mumbai", "Marunji, Pune", "Pune (Wakad)", "Ulwe", "Uran City"],
     "methods": "Horizontal Learning Method and Experiential Learning",
     "founders": "Priyanka Sharma and Suhani Gupta",
     "programs": ["Little Explorers (Playgroup)", "Curious Cubs (Nursery)", "Creative Crawlers (LKG)", "Adventurous Aces (UKG)"],
@@ -9,15 +9,15 @@ const siteKnowledge = {
 };
 
 const botResponses = {
-    "hello": "Hi there! Welcome to AI.Parenting. How can I help you today?",
-    "locations": "We are located in " + siteKnowledge.locations[0] + ", " + siteKnowledge.locations[1] + " and our new branch in " + siteKnowledge.locations[2] + ".",
-    "admission": "Admissions are currently open! You can fill out our <span style='color:#8b4e9d; cursor:pointer; text-decoration:underline' onclick='openEnquiry()'>enquiry form</span> or call us at " + siteKnowledge.contact + ".",
-    "fees": "Fee structure varies by program. Please fill out the enquiry form for a detailed quote.",
-    "method": "We follow the " + siteKnowledge.methods + " which focuses on child-led exploration.",
-    "founders": "The school was founded by " + siteKnowledge.founders + ".",
-    "programs": "We offer programs for different age groups: " + siteKnowledge.programs.join(", ") + ".",
-    "whatsapp": "You can chat with our centres directly on WhatsApp:<br><br><b>Nerul West:</b> <a href='https://wa.me/917838587500' target='_blank'>Chat Now</a><br><b>Nerul East:</b> <a href='https://wa.me/919987090631' target='_blank'>Chat Now</a><br><b>Pune:</b> <a href='https://wa.me/917821031637' target='_blank'>Chat Now</a>",
-    "default": "That's a great question! For specific details, please fill out our Admission Enquiry form or visit our campus."
+    "hello": "Hi there! Welcome to The Nurturing Roots AI Assistant. 🌟 I'm here to help you find the perfect preschool experience for your little one. What can I tell you about today?",
+    "locations": "We have 6 beautiful campuses located in:<br>📍 " + siteKnowledge.locations.join("<br>📍 ") + ".<br><br>Which one is closest to you?",
+    "admission": "Admissions are currently <b>OPEN</b> for the upcoming session! 🎒<br><br>You can fill out our <span style='color:#8b4e9d; cursor:pointer; font-weight:bold; text-decoration:underline' onclick='openEnquiry()'>Admission Form</span> or call us directly at <b>" + siteKnowledge.contact + "</b>.",
+    "fees": "Our fee structure is designed to be affordable while maintaining premium standards. Fees vary by program and location. Please drop your details in the <span style='color:#8b4e9d; cursor:pointer; text-decoration:underline' onclick='openEnquiry()'>Enquiry Form</span> for a custom quote!",
+    "method": "We take pride in our <b>" + siteKnowledge.methods + "</b>. We focus on child-led exploration, critical thinking, and holistic development. 🧩",
+    "founders": "The Nurturing Roots was founded by <b>" + siteKnowledge.founders + "</b> with a vision to revolutionize early childhood education.",
+    "programs": "We offer structured programs for every stage:<br>👶 <b>Little Explorers (Playgroup)</b><br>🌈 <b>Curious Cubs (Nursery)</b><br>🎨 <b>Creative Crawlers (LKG)</b><br>🚀 <b>Adventurous Aces (UKG)</b>",
+    "whatsapp": "Chat with our centres directly on WhatsApp:<br><br>💬 <b>Nerul:</b> <a href='https://wa.me/917838587500' target='_blank' style='color:#25D366; font-weight:bold'>Chat Now</a><br>💬 <b>Pune:</b> <a href='https://wa.me/917821031637' target='_blank' style='color:#25D366; font-weight:bold'>Chat Now</a>",
+    "default": "I'm still learning, but I'd love to help! 💡 For specific details about that, why not visit our campus or use our <span style='color:#8b4e9d; cursor:pointer; text-decoration:underline' onclick='openEnquiry()'>Admission Enquiry form</span>?"
 };
 
 function toggleChat() {
