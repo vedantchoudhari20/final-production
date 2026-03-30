@@ -1,0 +1,103 @@
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: var(--e-global-color-a1ec886);
+  background-image: url("../../../../images/pattern.png");
+}
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01
+  > .elementor-element-populated,
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01
+  > .elementor-element-populated
+  > .elementor-background-overlay,
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01
+  > .elementor-background-slideshow {
+  border-radius: 20px 20px 20px 20px;
+}
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01
+  > .elementor-element-populated {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 20px 20px 20px 20px;
+}
+.elementor-1191
+  .elementor-element.elementor-element-8b2ac01
+  > .elementor-element-populated
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-1191 .elementor-element.elementor-element-ba51bee {
+  text-align: center;
+}
+.elementor-1191
+  .elementor-element.elementor-element-ba51bee
+  > .elementor-widget-container {
+  margin: 0px 0px -6px 0px;
+}
+.elementor-1191 .elementor-element.elementor-element-b90bed9 {
+  text-align: center;
+}
+.elementor-1191
+  .elementor-element.elementor-element-b90bed9
+  .elementor-star-rating {
+  font-size: 20px;
+}
+body:not(.rtl)
+  .elementor-1191
+  .elementor-element.elementor-element-b90bed9
+  .elementor-star-rating
+  i:not(:last-of-type) {
+  margin-right: 5px;
+}
+body.rtl
+  .elementor-1191
+  .elementor-element.elementor-element-b90bed9
+  .elementor-star-rating
+  i:not(:last-of-type) {
+  margin-left: 5px;
+}
+.elementor-1191
+  .elementor-element.elementor-element-b90bed9
+  .elementor-star-rating
+  i:before {
+  color: #ffc402;
+}
+.elementor-1191
+  .elementor-element.elementor-element-b90bed9
+  > .elementor-widget-container {
+  margin: -15px 0px 0px 0px;
+}
+.elementor-1191 .elementor-element.elementor-element-8408b30 {
+  text-align: center;
+  color: var(--e-global-color-astglobalcolor5);
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-1191
+  .elementor-element.elementor-element-8408b30
+  > .elementor-widget-container {
+  margin: 0px 0px -24px 0px;
+  padding: 0px 0px 0px 0px;
+}
+@media (max-width: 767px) {
+  .elementor-1191 .elementor-element.elementor-element-ba51bee {
+    text-align: center;
+  }
+  .elementor-1191 .elementor-element.elementor-element-b90bed9 {
+    text-align: center;
+  }
+  .elementor-1191 .elementor-element.elementor-element-8408b30 {
+    text-align: center;
+  }
+} /* Start custom CSS for heading, class: .elementor-element-ba51bee */
+.elementor-1191 .elementor-element.elementor-element-ba51bee h3 {
+  color: white !important;
+} /* End custom CSS */

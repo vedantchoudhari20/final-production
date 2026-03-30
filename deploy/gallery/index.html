@@ -3502,6 +3502,64 @@
     /* 7. Ensure consistency of Daycare item */
     /* If the sub-menu flies right, Daycare will be perfectly visible beneath "Preschool Program" */
   </style>
+    
+
+
+    <style>
+      .elementor-gallery-item__image {
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        height: 250px !important; /* Fixed height for consistency */
+        width: 100% !important;
+      }
+      .elementor-gallery__container {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)) !important;
+        gap: 20px !important;
+      }
+      .elementor-shortcode { display: none !important; }
+    </style>
+
+
+  <style id="nr-premium-image-panning">
+    @keyframes nrKenBurns {
+      0% {
+        transform: scale(1) translateX(0);
+      }
+      50% {
+        transform: scale(1.15) translateX(3%);
+      }
+      100% {
+        transform: scale(1) translateX(0);
+      }
+    }
+
+    /* Target the container to hide the zoom overflow and add premium curves */
+    .elementor-element-a3bd30c .elementor-widget-container {
+      overflow: hidden !important;
+      border-radius: 40px !important; /* Premium rounded look */
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.12) !important; /* Soft shadow */
+      isolation: isolate !important; /* Ensure stacking context */
+      transition: box-shadow 0.5s ease-out !important;
+    }
+
+    .elementor-element-a3bd30c .elementor-widget-container:hover {
+      box-shadow: 0 50px 100px rgba(0, 0, 0, 0.18) !important;
+    }
+
+    /* Apply the panning to the image */
+    .elementor-element-a3bd30c img {
+      animation: nrKenBurns 20s ease-in-out infinite !important;
+      transition: filter 0.8s ease-in-out !important;
+      will-change: transform; /* Hint for browser performance */
+    }
+
+    /* Subtle interaction */
+    .elementor-element-a3bd30c:hover img {
+      filter: contrast(1.05) brightness(1.02) !important;
+    }
+  </style>
 
 </head>
 
@@ -3664,21 +3722,18 @@
                                 Program<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow"
                                   tabindex="0" aria-expanded="false" aria-label="Menu Toggle"></span></a>
                               <ul class="sub-menu elementor-nav-menu--dropdown">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
+                                  <a href="../little-explorers/index.html" class="elementor-sub-item menu-link">Little Explorers</a>
+                                </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
                                   <a href="../kids-nursery-in-nerul/index.html"
                                     class="elementor-sub-item menu-link">Curious Cubs</a>
                                 </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
-                                  <a href="../little-explorers/index.html" class="elementor-sub-item menu-link">Little
-                                    Explorers</a>
-                                </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
-                                  <a href="../rising-star-1/index.html" class="elementor-sub-item menu-link">Rising Star
-                                    1</a>
+                                  <a href="../rising-star-1/index.html" class="elementor-sub-item menu-link">Rising Star 1</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
-                                  <a href="../rising-star-2/index.html" class="elementor-sub-item menu-link">Rising Star
-                                    2</a>
+                                  <a href="../rising-star-2/index.html" class="elementor-sub-item menu-link">Rising Star 2</a>
                                 </li>
                               </ul>
                             </li>
@@ -3761,13 +3816,13 @@
                                   class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0"
                                   aria-expanded="false" aria-label="Menu Toggle"></span></a>
                               <ul class="sub-menu elementor-nav-menu--dropdown">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
-                                  <a href="../kids-nursery-in-nerul/index.html" class="elementor-sub-item menu-link"
-                                    tabindex="-1">Curious Cubs</a>
-                                </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
                                   <a href="../little-explorers/index.html" class="elementor-sub-item menu-link"
                                     tabindex="-1">Little Explorers</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
+                                  <a href="../kids-nursery-in-nerul/index.html" class="elementor-sub-item menu-link"
+                                    tabindex="-1">Curious Cubs</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
                                   <a href="../rising-star-1/index.html" class="elementor-sub-item menu-link"
@@ -4195,6 +4250,25 @@
                                 }
                               </style>
                               <div class="elementor-gallery__container">
+                                <a class="e-gallery-item elementor-gallery-item elementor-animated-content"
+                                  href="../images/gallery_child_green_ball.jpg"
+                                  data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-b8b6a2a"
+                                  data-elementor-lightbox-title="Child with green ball">
+                                  <div class="e-gallery-image elementor-gallery-item__image"
+                                    data-thumbnail="../images/gallery_child_green_ball.jpg"
+                                    data-width="900" data-height="1200" alt="Child with green ball"></div>
+                                  <div class="elementor-gallery-item__overlay"></div>
+                                </a>
+                                <a class="e-gallery-item elementor-gallery-item elementor-animated-content"
+                                  href="../images/gallery_children_cleaning.jpg"
+                                  data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-b8b6a2a"
+                                  data-elementor-lightbox-title="Children cleaning cars">
+                                  <div class="e-gallery-image elementor-gallery-item__image"
+                                    data-thumbnail="../images/gallery_children_cleaning.jpg"
+                                    data-width="900" data-height="1200" alt="Children cleaning"></div>
+                                  <div class="elementor-gallery-item__overlay"></div>
+                                </a>
+                                
                                 <a class="e-gallery-item elementor-gallery-item elementor-animated-content"
                                   href="../wp-content/uploads/2023/04/WhatsApp-Image-2022-05-21-at-4.04.09-PM-300x225-1.jpeg"
                                   data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="all-b8b6a2a"
@@ -4766,7 +4840,7 @@
                                     <div class="elementor-widget-container">
                                       <div class="elementor-button-wrapper">
                                         <a class="elementor-button elementor-button-link elementor-size-sm"
-                                          href="../become-a-partner/index.html">
+                                          href="../preschool-franchise/index.html">
                                           <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Connect with us!</span>
                                           </span>
@@ -4944,119 +5018,60 @@
                                     <div class="elementor-widget-container">
                                       <link rel="stylesheet"
                                         href="../wp-content/plugins/pro-elements/assets/css/widget-posts.min.css" />
-                                      <div
-                                        class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
-                                        <article
-                                          class="elementor-post elementor-grid-item post-3317 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-                                          <a class="elementor-post__thumbnail__link"
-                                            href="../its-holiday-time/index.html">
-                                            <div class="elementor-post__thumbnail">
-                                              <img loading="eager" decoding="async" width="300" height="132"
-                                                src="../wp-content/uploads/2023/05/Picture1-300x132.jpg"
-                                                class="attachment-medium size-medium wp-image-3335" alt="" />
+                                      
+                                        <div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+                                          <!-- Post 1 -->
+                                          <article class="elementor-post elementor-grid-item">
+                                            <a class="elementor-post__thumbnail__link" href="../blog/new-age-parenting-guide/index.html">
+                                              <div class="elementor-post__thumbnail">
+                                                <img src="../images/parenting_guide.png" alt="New Age Parenting Guide" style="height:200px; object-fit:cover; width:100%; border-radius:15px;">
+                                              </div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                              <h3 class="elementor-post__title" style="font-family:'Kids Knowledge', sans-serif; font-size:22px !important;">
+                                                <a href="../blog/new-age-parenting-guide/index.html">New Age Parenting Guide</a>
+                                              </h3>
+                                              <div class="elementor-post__excerpt" style="font-size:14px; line-height:1.4; color:#666; height:60px; overflow:hidden;">
+                                                <p>Modern parenting in the 2020s. Learn research-based strategies for emotionally healthy, resilient children.</p>
+                                              </div>
+                                              <a class="elementor-post__read-more" href="../blog/new-age-parenting-guide/index.html" style="font-weight:bold; color:#8b4e9d;">Read Full Story »</a>
                                             </div>
-                                          </a>
-                                          <div class="elementor-post__text">
-                                            <h3 class="elementor-post__title">
-                                              <a href="../its-holiday-time/index.html">
-                                                IT’S HOLIDAY TIME!
-                                              </a>
-                                            </h3>
-                                            <div class="elementor-post__meta-data">
-                                              <span class="elementor-post-date">
-                                                May 12, 2023
-                                              </span>
-                                              <span class="elementor-post-avatar">
-                                                No Comments
-                                              </span>
+                                          </article>
+                                          <!-- Post 2 -->
+                                          <article class="elementor-post elementor-grid-item">
+                                            <a class="elementor-post__thumbnail__link" href="../blog/what-is-horizontal-learning-tnr/index.html">
+                                              <div class="elementor-post__thumbnail">
+                                                <img src="../images/horizontal_activity.png" alt="Horizontal Learning" style="height:200px; object-fit:cover; width:100%; border-radius:15px;">
+                                              </div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                              <h3 class="elementor-post__title" style="font-family:'Kids Knowledge', sans-serif; font-size:22px !important;">
+                                                <a href="../blog/what-is-horizontal-learning-tnr/index.html">What is Horizontal Learning?</a>
+                                              </h3>
+                                              <div class="elementor-post__excerpt" style="font-size:14px; line-height:1.4; color:#666; height:60px; overflow:hidden;">
+                                                <p>Discover the beautiful buzz of activity that makes Horizontal Learning so effective at TNR.</p>
+                                              </div>
+                                              <a class="elementor-post__read-more" href="../blog/what-is-horizontal-learning-tnr/index.html" style="font-weight:bold; color:#8b4e9d;">Read Full Story »</a>
                                             </div>
-                                            <div class="elementor-post__excerpt">
-                                              <p>
-                                                HURRAY! IT’S HOLIDAY TIME! It
-                                                is that time of the year when
-                                                schools are off before the
-                                                start of a new academic
-                                                session.&nbsp; Teachers are
-                                              </p>
+                                          </article>
+                                          <!-- Post 3 -->
+                                          <article class="elementor-post elementor-grid-item">
+                                            <a class="elementor-post__thumbnail__link" href="../blog/index.html">
+                                              <div class="elementor-post__thumbnail">
+                                                <img src="../images/annual_function_2026.png" alt="Annual Function 2026" style="height:200px; object-fit:cover; width:100%; border-radius:15px;">
+                                              </div>
+                                            </a>
+                                            <div class="elementor-post__text">
+                                              <h3 class="elementor-post__title" style="font-family:'Kids Knowledge', sans-serif; font-size:22px !important;">
+                                                <a href="../blog/index.html">Annual Function 2026</a>
+                                              </h3>
+                                              <div class="elementor-post__excerpt" style="font-size:14px; line-height:1.4; color:#666; height:60px; overflow:hidden;">
+                                                <p>A Journey of Dreams: Celebrating our children's milestones and creative expressions.</p>
+                                              </div>
+                                              <a class="elementor-post__read-more" href="../blog/index.html" style="font-weight:bold; color:#8b4e9d;">Coming Soon »</a>
                                             </div>
-                                          </div>
-                                        </article>
-                                        <article
-                                          class="elementor-post elementor-grid-item post-862 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-                                          <a class="elementor-post__thumbnail__link"
-                                            href="../nurturing-your-child/index.html">
-                                            <div class="elementor-post__thumbnail">
-                                              <img loading="eager" decoding="async" width="300" height="200"
-                                                src="../wp-content/uploads/2022/12/New-Project-57-300x200.jpg"
-                                                class="attachment-medium size-medium wp-image-3449" alt="" />
-                                            </div>
-                                          </a>
-                                          <div class="elementor-post__text">
-                                            <h3 class="elementor-post__title">
-                                              <a href="../nurturing-your-child/index.html">
-                                                Nurturing your child.
-                                              </a>
-                                            </h3>
-                                            <div class="elementor-post__meta-data">
-                                              <span class="elementor-post-date">
-                                                December 26, 2022
-                                              </span>
-                                              <span class="elementor-post-avatar">
-                                                No Comments
-                                              </span>
-                                            </div>
-                                            <div class="elementor-post__excerpt">
-                                              <p>
-                                                SHAPING LITTLE MINDS The first
-                                                5 years of life are actually
-                                                the most of difficult things
-                                                like language, manners,
-                                                reciprocating, and a lot of
-                                                behavioral
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </article>
-                                        <article
-                                          class="elementor-post elementor-grid-item post-859 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-                                          <a class="elementor-post__thumbnail__link"
-                                            href="../why-are-we-the-best-preschool-and-daycare-facility-providers/index.html">
-                                            <div class="elementor-post__thumbnail">
-                                              <img loading="eager" decoding="async" width="300" height="300"
-                                                src="../wp-content/uploads/2022/12/183124535_163530915773701_2292106913759825189_n-300x300.jpg"
-                                                class="attachment-medium size-medium wp-image-860" alt="" />
-                                            </div>
-                                          </a>
-                                          <div class="elementor-post__text">
-                                            <h3 class="elementor-post__title">
-                                              <a
-                                                href="../why-are-we-the-best-preschool-and-daycare-facility-providers/index.html">
-                                                Why are we the best preschool
-                                                and daycare facility providers
-                                                ?
-                                              </a>
-                                            </h3>
-                                            <div class="elementor-post__meta-data">
-                                              <span class="elementor-post-date">
-                                                December 26, 2022
-                                              </span>
-                                              <span class="elementor-post-avatar">
-                                                No Comments
-                                              </span>
-                                            </div>
-                                            <div class="elementor-post__excerpt">
-                                              <p>
-                                                The Nurturing Roots We Indians
-                                                have heard of the ancient
-                                                Gurukul System which almost
-                                                dates back to 5000 BC. It was
-                                                primarily a residential
-                                                schooling
-                                              </p>
-                                            </div>
-                                          </div>
-                                        </article>
-                                      </div>
+                                          </article>
+                                        </div>
                                     </div>
                                   </div>
                                 </div>
@@ -8615,6 +8630,9 @@
         <label>Parent's Name</label>
         <input type="text" name="parent_name" required>
 
+        
+        <label>Email ID</label>
+        <input type="email" name="email" required>
         <label>Phone Number</label>
         <input type="tel" name="phone" required>
 
@@ -8646,6 +8664,33 @@
     </div>
   </div>
   <script src="../wp-content/custom-widgets.js"></script>
+  
+  <script>
+    (function() {
+      function fixScaling() {
+        const items = document.querySelectorAll(".e-gallery-image");
+        items.forEach(item => {
+          item.style.backgroundSize = "cover";
+          item.style.backgroundPosition = "center";
+          // If image fails to load, try to fallback to the thumbnail
+          const bg = item.style.backgroundImage;
+          if (bg && bg.includes('url')) {
+              const img = new Image();
+              img.src = bg.replace(/url\("(.+)"\)/, '$1').replace(/url\((.+)\)/, '$1');
+              img.onerror = function() {
+                  // If high res failed, and it was replaced, try to restore thumbnail
+                  // But we already did filesystem check in python, so this is just extra safety
+                  console.log("Image failed to load: " + img.src);
+              };
+          }
+        });
+      }
+      window.addEventListener("load", fixScaling);
+      setTimeout(fixScaling, 500);
+    })();
+  </script>
+
 </body>
 
 </html>
+

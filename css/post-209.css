@@ -1,0 +1,595 @@
+.elementor-209
+  .elementor-element.elementor-element-4ae88ca:not(.elementor-motion-effects-element-type-background),
+.elementor-209
+  .elementor-element.elementor-element-4ae88ca
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../images/cheerful-smiling-mother-and-little-baby-kid-child-15.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-209
+  .elementor-element.elementor-element-4ae88ca
+  > .elementor-background-overlay {
+  background-color: #9b989c;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-209 .elementor-element.elementor-element-4ae88ca {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 100px 0px 200px 0px;
+}
+.elementor-209 .elementor-element.elementor-element-67de0a5 {
+  text-align: center;
+}
+.elementor-209
+  .elementor-element.elementor-element-67de0a5
+  .elementor-heading-title {
+  color: var(--e-global-color-astglobalcolor5);
+  font-family: "dolpino", Sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+.elementor-209
+  .elementor-element.elementor-element-4f6dbc2
+  > .elementor-container {
+  max-width: 1300px;
+}
+.elementor-209 .elementor-element.elementor-element-4f6dbc2 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 100px 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-4f6dbc2
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-96ed903
+  > .elementor-element-populated {
+  margin: 0px 50px 0px 0px;
+  --e-column-margin-right: 50px;
+  --e-column-margin-left: 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-5a8d731
+  .elementor-heading-title {
+  color: var(--e-global-color-a1ec886);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.elementor-209 .elementor-element.elementor-element-692cce1 {
+  --divider-border-style: curved;
+  --divider-color: var(--e-global-color-text);
+  --divider-border-width: 2px;
+  --divider-pattern-height: 20px;
+  --divider-pattern-size: 20px;
+}
+.elementor-209
+  .elementor-element.elementor-element-692cce1
+  .elementor-divider-separator {
+  width: 200px;
+  margin: 0 auto;
+  margin-left: 0;
+}
+.elementor-209 .elementor-element.elementor-element-692cce1 .elementor-divider {
+  text-align: left;
+  padding-block-start: 2px;
+  padding-block-end: 2px;
+}
+.elementor-209 .elementor-element.elementor-element-f0804e5 {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-209
+  .elementor-element.elementor-element-f0804e5
+  > .elementor-widget-container {
+  margin: 0px 0px -30px 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:last-child) {
+  padding-bottom: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:first-child) {
+  margin-top: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item {
+  margin-right: calc(10px / 2);
+  margin-left: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-items.elementor-inline-items {
+  margin-right: calc(-10px / 2);
+  margin-left: calc(-10px / 2);
+}
+body.rtl
+  .elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  left: calc(-10px / 2);
+}
+body:not(.rtl)
+  .elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  right: calc(-10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-icon
+  i {
+  color: #e8336f;
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-icon
+  svg {
+  fill: #e8336f;
+  transition: fill 0.3s;
+}
+.elementor-209 .elementor-element.elementor-element-2635ce6 {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-209
+  .elementor-element.elementor-element-2635ce6
+  .elementor-icon-list-text {
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-f534179
+  > .elementor-element-populated,
+.elementor-209
+  .elementor-element.elementor-element-f534179
+  > .elementor-element-populated
+  > .elementor-background-overlay,
+.elementor-209
+  .elementor-element.elementor-element-f534179
+  > .elementor-background-slideshow {
+  border-radius: 20px 20px 20px 20px;
+}
+.elementor-209
+  .elementor-element.elementor-element-f534179
+  > .elementor-element-populated {
+  box-shadow: 0px 0px 35px -10px rgba(0, 0, 0, 0.1);
+  margin: 0px 0px 0px 50px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 50px;
+  padding: 50px 50px 50px 50px;
+}
+.elementor-209
+  .elementor-element.elementor-element-633ab41
+  > .elementor-widget-container {
+  margin: 0px 0px 0px 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-66edb6d
+  > .elementor-container {
+  max-width: 1300px;
+}
+.elementor-209
+  .elementor-element.elementor-element-66edb6d:not(.elementor-motion-effects-element-type-background),
+.elementor-209
+  .elementor-element.elementor-element-66edb6d
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #f4f4f4;
+}
+.elementor-209 .elementor-element.elementor-element-66edb6d {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 100px 0px 30px 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-66edb6d
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:last-child) {
+  padding-bottom: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:first-child) {
+  margin-top: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item {
+  margin-right: calc(10px / 2);
+  margin-left: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-items.elementor-inline-items {
+  margin-right: calc(-10px / 2);
+  margin-left: calc(-10px / 2);
+}
+body.rtl
+  .elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  left: calc(-10px / 2);
+}
+body:not(.rtl)
+  .elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  right: calc(-10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-a1ec886);
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-a1ec886);
+  transition: fill 0.3s;
+}
+.elementor-209 .elementor-element.elementor-element-789f961 {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-209
+  .elementor-element.elementor-element-789f961
+  .elementor-icon-list-text {
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:last-child) {
+  padding-bottom: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:first-child) {
+  margin-top: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item {
+  margin-right: calc(10px / 2);
+  margin-left: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-items.elementor-inline-items {
+  margin-right: calc(-10px / 2);
+  margin-left: calc(-10px / 2);
+}
+body.rtl
+  .elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  left: calc(-10px / 2);
+}
+body:not(.rtl)
+  .elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  right: calc(-10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-a1ec886);
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-a1ec886);
+  transition: fill 0.3s;
+}
+.elementor-209 .elementor-element.elementor-element-61bf892 {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-209
+  .elementor-element.elementor-element-61bf892
+  .elementor-icon-list-text {
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:last-child) {
+  padding-bottom: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:first-child) {
+  margin-top: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item {
+  margin-right: calc(10px / 2);
+  margin-left: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-items.elementor-inline-items {
+  margin-right: calc(-10px / 2);
+  margin-left: calc(-10px / 2);
+}
+body.rtl
+  .elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  left: calc(-10px / 2);
+}
+body:not(.rtl)
+  .elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  right: calc(-10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-a1ec886);
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-a1ec886);
+  transition: fill 0.3s;
+}
+.elementor-209 .elementor-element.elementor-element-8d8ffec {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-209
+  .elementor-element.elementor-element-8d8ffec
+  .elementor-icon-list-text {
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:last-child) {
+  padding-bottom: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-items:not(.elementor-inline-items)
+  .elementor-icon-list-item:not(:first-child) {
+  margin-top: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item {
+  margin-right: calc(10px / 2);
+  margin-left: calc(10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-items.elementor-inline-items {
+  margin-right: calc(-10px / 2);
+  margin-left: calc(-10px / 2);
+}
+body.rtl
+  .elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  left: calc(-10px / 2);
+}
+body:not(.rtl)
+  .elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-items.elementor-inline-items
+  .elementor-icon-list-item:after {
+  right: calc(-10px / 2);
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-a1ec886);
+  transition: color 0.3s;
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-a1ec886);
+  transition: fill 0.3s;
+}
+.elementor-209 .elementor-element.elementor-element-d7bc19f {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-209
+  .elementor-element.elementor-element-d7bc19f
+  .elementor-icon-list-text {
+  transition: color 0.3s;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-209 .elementor-element.elementor-element-96ed903 {
+    width: 100%;
+  }
+  .elementor-209 .elementor-element.elementor-element-f534179 {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .elementor-209
+    .elementor-element.elementor-element-4ae88ca
+    > .elementor-shape-bottom
+    svg {
+    height: 100px;
+  }
+  .elementor-209
+    .elementor-element.elementor-element-96ed903
+    > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+  }
+  .elementor-209 .elementor-element.elementor-element-5a8d731 {
+    text-align: center;
+  }
+  .elementor-209
+    .elementor-element.elementor-element-692cce1
+    .elementor-divider {
+    text-align: center;
+  }
+  .elementor-209
+    .elementor-element.elementor-element-692cce1
+    .elementor-divider-separator {
+    margin: 0 auto;
+    margin-center: 0;
+  }
+  .elementor-209 .elementor-element.elementor-element-f0804e5 {
+    text-align: center;
+  }
+  .elementor-209
+    .elementor-element.elementor-element-f534179
+    > .elementor-element-populated {
+    margin: 50px 10px 0px 10px;
+    --e-column-margin-right: 10px;
+    --e-column-margin-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-209
+    .elementor-element.elementor-element-4ae88ca
+    > .elementor-shape-bottom
+    svg {
+    height: 100px;
+  }
+  .elementor-209 .elementor-element.elementor-element-4ae88ca {
+    padding: 100px 0px 130px 0px;
+  }
+  .elementor-209
+    .elementor-element.elementor-element-67de0a5
+    .elementor-heading-title {
+    font-size: 40px;
+  }
+  .elementor-209 .elementor-element.elementor-element-5a8d731 {
+    text-align: center;
+  }
+  .elementor-209
+    .elementor-element.elementor-element-f534179
+    > .elementor-element-populated {
+    padding: 20px 20px 20px 20px;
+  }
+} /* Start custom CSS for section, class: .elementor-element-66edb6d */
+.elementor-137
+  .elementor-element.elementor-element-e9a7f07
+  > .elementor-shape-top
+  .elementor-shape-fill {
+  fill: #f4f4f4 !important;
+} /* End custom CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+  font-family: "dolpino";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("../images/Dolpino.ttf")
+    format("truetype");
+}
+/* End Custom Fonts CSS */

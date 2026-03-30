@@ -1,0 +1,68 @@
+.elementor-kit-5 {
+  --e-global-color-primary: #6ec1e4;
+  --e-global-color-secondary: #54595f;
+  --e-global-color-text: #4e4e4e;
+  --e-global-color-accent: #61ce70;
+  --e-global-color-1732037: #8b4e9d;
+  --e-global-color-a1ec886: #e8336f;
+  --e-global-color-19e9fe8: #90c54e;
+  --e-global-color-704a25b: #000000;
+  --e-global-color-b7cf41e: #c33438;
+  --e-global-color-7164cb6: #e67138;
+  --e-global-color-8fe2749: #4e4e4e;
+  --e-global-color-5613948: #848688;
+  --e-global-color-53ee4bb: #fbb247;
+  --e-global-typography-primary-font-family: "dolpino";
+  --e-global-typography-primary-font-weight: 700;
+  --e-global-typography-secondary-font-family: "Kids Knowledge";
+  --e-global-typography-secondary-font-weight: 200;
+  --e-global-typography-text-font-family: "Kids Knowledge";
+  --e-global-typography-text-font-weight: 200;
+  --e-global-typography-accent-font-family: "Kids Knowledge";
+  --e-global-typography-accent-font-weight: 200;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.e-con {
+  --container-max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-block-end: 20px;
+}
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+}
+ {
+}
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.elementor-kit-5 e-page-transition {
+  background-color: #ffbc7d;
+}
+@media (max-width: 1024px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+  .e-con {
+    --container-max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+  .e-con {
+    --container-max-width: 767px;
+  }
+} /* Start Custom Fonts CSS */
+@font-face {
+  font-family: "dolpino";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("../images/Dolpino.ttf")
+    format("truetype");
+}
+/* End Custom Fonts CSS */

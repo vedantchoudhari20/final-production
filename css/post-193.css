@@ -1,0 +1,293 @@
+.elementor-193
+  .elementor-element.elementor-element-4ea2b63:not(.elementor-motion-effects-element-type-background),
+.elementor-193
+  .elementor-element.elementor-element-4ea2b63
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../images/cheerful-smiling-mother-and-little-baby-kid-child-13.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-193
+  .elementor-element.elementor-element-4ea2b63
+  > .elementor-background-overlay {
+  background-color: #9b989c;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-193 .elementor-element.elementor-element-4ea2b63 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 100px 0px 200px 0px;
+}
+.elementor-193 .elementor-element.elementor-element-37a149c {
+  text-align: center;
+}
+.elementor-193
+  .elementor-element.elementor-element-37a149c
+  .elementor-heading-title {
+  color: var(--e-global-color-astglobalcolor5);
+  font-family: "dolpino", Sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+.elementor-193
+  .elementor-element.elementor-element-029be6f
+  > .elementor-container {
+  max-width: 1300px;
+}
+.elementor-193 .elementor-element.elementor-element-029be6f {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-posts-container
+  .elementor-post__thumbnail {
+  padding-bottom: calc(0.66 * 100%);
+}
+.elementor-193 .elementor-element.elementor-element-1126a17:after {
+  content: "0.66";
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__thumbnail__link {
+  width: 100%;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__meta-data
+  span
+  + span:before {
+  content: "|";
+}
+.elementor-193 .elementor-element.elementor-element-1126a17 {
+  --grid-column-gap: 30px;
+  --grid-row-gap: 35px;
+  --load-more-message-color: var(--e-global-color-1732037);
+}
+.elementor-193 .elementor-element.elementor-element-1126a17 .elementor-post {
+  background-color: #ffffff;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__thumbnail {
+  border-radius: 20px 20px 20px 20px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17.elementor-posts--thumbnail-left
+  .elementor-post__thumbnail__link {
+  margin-right: 20px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17.elementor-posts--thumbnail-right
+  .elementor-post__thumbnail__link {
+  margin-left: 20px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17.elementor-posts--thumbnail-top
+  .elementor-post__thumbnail__link {
+  margin-bottom: 20px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__title,
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__title
+  a {
+  color: var(--e-global-color-1732037);
+  font-family: "dolpino", Sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__title {
+  margin-bottom: 6px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__meta-data {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__excerpt
+  p {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__read-more {
+  color: var(--e-global-color-a1ec886);
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  a.elementor-post__read-more {
+  font-family: "dolpino", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .elementor-post__text {
+  margin-bottom: 10px;
+}
+.elementor-193 .elementor-element.elementor-element-1126a17 .elementor-button {
+  font-family: "dolpino", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: var(--e-global-color-a1ec886);
+  border-radius: 0px 30px 30px 30px;
+  padding: 20px 35px 20px 35px;
+}
+.elementor-193
+  .elementor-element.elementor-element-1126a17
+  .e-load-more-message {
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.elementor-193
+  .elementor-element.elementor-element-0d52e80:not(.elementor-motion-effects-element-type-background),
+.elementor-193
+  .elementor-element.elementor-element-0d52e80
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../images/cute-baby-boy-smiling-and-surprising-e1634551512905.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-193
+  .elementor-element.elementor-element-0d52e80
+  > .elementor-background-overlay {
+  background-color: var(--e-global-color-a1ec886);
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-193 .elementor-element.elementor-element-0d52e80,
+.elementor-193
+  .elementor-element.elementor-element-0d52e80
+  > .elementor-background-overlay {
+  border-radius: 20px 20px 20px 20px;
+}
+.elementor-193 .elementor-element.elementor-element-0d52e80 {
+  box-shadow: 0px 15px 35px -15px rgba(204, 80, 172.00000000000003, 0.45098039215686275);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 40px 40px 40px 40px;
+}
+.elementor-193
+  .elementor-element.elementor-element-a86e6ac
+  .elementor-heading-title {
+  color: var(--e-global-color-astglobalcolor5);
+  font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-primary-font-weight);
+}
+.elementor-193
+  .elementor-element.elementor-element-2b412ea
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-astglobalcolor5);
+  transition: color 0.3s;
+}
+.elementor-193
+  .elementor-element.elementor-element-2b412ea
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-astglobalcolor5);
+  transition: fill 0.3s;
+}
+.elementor-193 .elementor-element.elementor-element-2b412ea {
+  --e-icon-list-icon-size: 20px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-193
+  .elementor-element.elementor-element-2b412ea
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-193
+  .elementor-element.elementor-element-2b412ea
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.elementor-193
+  .elementor-element.elementor-element-2b412ea
+  .elementor-icon-list-text {
+  color: var(--e-global-color-astglobalcolor5);
+  transition: color 0.3s;
+}
+@media (min-width: 768px) {
+  .elementor-193 .elementor-element.elementor-element-d6d38da {
+    width: 64.846%;
+  }
+  .elementor-193 .elementor-element.elementor-element-0323bc3 {
+    width: 35.116%;
+  }
+}
+@media (max-width: 1024px) {
+  .elementor-193
+    .elementor-element.elementor-element-4ea2b63
+    > .elementor-shape-bottom
+    svg {
+    height: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-193
+    .elementor-element.elementor-element-4ea2b63
+    > .elementor-shape-bottom
+    svg {
+    height: 100px;
+  }
+  .elementor-193 .elementor-element.elementor-element-4ea2b63 {
+    padding: 100px 0px 130px 0px;
+  }
+  .elementor-193
+    .elementor-element.elementor-element-37a149c
+    .elementor-heading-title {
+    font-size: 40px;
+  }
+  .elementor-193 .elementor-element.elementor-element-029be6f {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .elementor-193
+    .elementor-element.elementor-element-1126a17
+    .elementor-posts-container
+    .elementor-post__thumbnail {
+    padding-bottom: calc(0.5 * 100%);
+  }
+  .elementor-193 .elementor-element.elementor-element-1126a17:after {
+    content: "0.5";
+  }
+  .elementor-193
+    .elementor-element.elementor-element-1126a17
+    .elementor-post__thumbnail__link {
+    width: 100%;
+  }
+} /* Start custom CSS for section, class: .elementor-element-0d52e80 */
+.alg {
+  position: sticky;
+  top: 10px;
+} /* End custom CSS */
+/* Start Custom Fonts CSS */
+@font-face {
+  font-family: "dolpino";
+  font-style: normal;
+  font-weight: 700;
+  font-display: auto;
+  src: url("../images/Dolpino.ttf")
+    format("truetype");
+}
+/* End Custom Fonts CSS */

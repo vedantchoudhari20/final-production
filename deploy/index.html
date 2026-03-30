@@ -3666,6 +3666,46 @@
     /* If the sub-menu flies right, Daycare will be perfectly visible beneath "Preschool Program" */
   </style>
 
+
+  <style id="nr-premium-image-panning">
+    @keyframes nrKenBurns {
+      0% {
+        transform: scale(1) translateX(0);
+      }
+      50% {
+        transform: scale(1.15) translateX(3%);
+      }
+      100% {
+        transform: scale(1) translateX(0);
+      }
+    }
+
+    /* Target the container to hide the zoom overflow and add premium curves */
+    .elementor-element-a3bd30c .elementor-widget-container {
+      overflow: hidden !important;
+      border-radius: 40px !important; /* Premium rounded look */
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.12) !important; /* Soft shadow */
+      isolation: isolate !important; /* Ensure stacking context */
+      transition: box-shadow 0.5s ease-out !important;
+    }
+
+    .elementor-element-a3bd30c .elementor-widget-container:hover {
+      box-shadow: 0 50px 100px rgba(0, 0, 0, 0.18) !important;
+    }
+
+    /* Apply the panning to the image */
+    .elementor-element-a3bd30c img {
+      animation: nrKenBurns 20s ease-in-out infinite !important;
+      transition: filter 0.8s ease-in-out !important;
+      will-change: transform; /* Hint for browser performance */
+    }
+
+    /* Subtle interaction */
+    .elementor-element-a3bd30c:hover img {
+      filter: contrast(1.05) brightness(1.02) !important;
+    }
+  </style>
+
 </head>
 
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope"
@@ -3703,7 +3743,7 @@
                           <span class="elementor-icon-list-icon">
                             <i aria-hidden="true" class="fas fa-phone-alt"></i>
                           </span>
-                          <span class="elementor-icon-list-text">+91-99870 90631</span>
+                          <span class="elementor-icon-list-text">+91-78385 87500</span>
                         </a>
                       </li>
                       <li class="elementor-icon-list-item elementor-inline-item">
@@ -3826,34 +3866,30 @@
                         </li>
                         <li
                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-872">
-                          <a href="./little-explorers/index.html"
+                          <a href="#"
                             class="elementor-item elementor-item-anchor menu-link">Programs<span role="application"
                               class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0"
                               aria-expanded="false" aria-label="Menu Toggle"></span></a>
                           <ul class="sub-menu elementor-nav-menu--dropdown">
                             <li
                               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-581">
-                              <a href="./little-explorers/index.html"
+                              <a href="#"
                                 class="elementor-sub-item elementor-item-anchor menu-link">Preschool
                                 Program<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow"
                                   tabindex="0" aria-expanded="false" aria-label="Menu Toggle"></span></a>
                               <ul class="sub-menu elementor-nav-menu--dropdown">
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
-                                  <a href="./little-explorers/index.html" class="elementor-sub-item menu-link">Little
-                                    Explorers</a>
+                                  <a href="./little-explorers/index.html" class="elementor-sub-item menu-link">Little Explorers</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
                                   <a href="./kids-nursery-in-nerul/index.html"
-                                    class="elementor-sub-item menu-link">Curious
-                                    Cubs</a>
+                                    class="elementor-sub-item menu-link">Curious Cubs</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
-                                  <a href="./rising-star-1/index.html" class="elementor-sub-item menu-link">Rising Star
-                                    1</a>
+                                  <a href="./rising-star-1/index.html" class="elementor-sub-item menu-link">Rising Star 1</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
-                                  <a href="./rising-star-2/index.html" class="elementor-sub-item menu-link">Rising Star
-                                    2</a>
+                                  <a href="./rising-star-2/index.html" class="elementor-sub-item menu-link">Rising Star 2</a>
                                 </li>
                               </ul>
                             </li>
@@ -3920,14 +3956,14 @@
                         </li>
                         <li
                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-872">
-                          <a href="./little-explorers/index.html" class="elementor-item elementor-item-anchor menu-link"
+                          <a href="#" class="elementor-item elementor-item-anchor menu-link"
                             tabindex="-1">Programs<span role="application"
                               class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0"
                               aria-expanded="false" aria-label="Menu Toggle"></span></a>
                           <ul class="sub-menu elementor-nav-menu--dropdown">
                             <li
                               class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-581">
-                              <a href="./little-explorers/index.html"
+                              <a href="#"
                                 class="elementor-sub-item elementor-item-anchor menu-link" tabindex="-1">Preschool
                                 Program<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow"
                                   tabindex="0" aria-expanded="false" aria-label="Menu Toggle"></span></a>
@@ -3942,13 +3978,11 @@
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
                                   <a href="./rising-star-1/index.html" class="elementor-sub-item menu-link"
-                                    tabindex="-1">Rising
-                                    Star 1</a>
+                                    tabindex="-1">Rising Star 1</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
                                   <a href="./rising-star-2/index.html" class="elementor-sub-item menu-link"
-                                    tabindex="-1">Rising
-                                    Star 2</a>
+                                    tabindex="-1">Rising Star 2</a>
                                 </li>
                               </ul>
                             </li>
@@ -4429,7 +4463,7 @@
                                     data-id="03a37ee" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                       <img loading="eager" decoding="async" width="900" height="600"
-                                        src="./images/horizontal_learning_method_new.png"
+                                                                                src="./images/indian_child_1.png"
                                         class="blob-animated entrance-anim attachment-large size-large wp-image-3344"
                                         alt="Horizontal Learning Method" />
                                     </div>
@@ -4448,13 +4482,7 @@
                                     data-id="9c7658b" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                       <p class="icon-box-description">
-                                        <span style="font-weight: 400">Makes a child competent and
-                                          meticulous to respond effectively .
-                                          The environment in the horizontal
-                                          method of learning is of
-                                          collaboration and exploration.
-                                          Enables the child to achieve their
-                                          full potential.</span>
+                                        <span style="font-weight: 400">At The Nurturing Roots, we believe children learn best through collaboration and exploration. Our Horizontal Learning Method encourages interaction, curiosity, and independent thinking, helping every child grow with confidence and reach their full potential.</span>
                                       </p>
                                     </div>
                                   </div>
@@ -4470,7 +4498,7 @@
                                     data-id="d08dad9" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                       <img loading="eager" decoding="async" width="900" height="600"
-                                        src="./images/experiential_learning_v2.png" class="blob-animated entrance-anim"
+                                                                                                                        src="./images/indian_child_2.png" class="blob-animated entrance-anim"
                                         class="attachment-large size-large wp-image-3345" alt="Experiential Learning" />
                                     </div>
                                   </div>
@@ -4487,14 +4515,8 @@
                                     class="elementor-element elementor-element-9ad528c elementor-widget elementor-widget-text-editor"
                                     data-id="9ad528c" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                      <p>
-                                        <span style="font-weight: 400">A child develops best through
-                                          hands-on discoveries and
-                                          experiential learning at the best
-                                          preschool and daycare in Navi Mumbai
-                                          &amp; Pune. We give the environment
-                                          and resources they need for their
-                                          discoveries.</span>
+                                      <p class="icon-box-description">
+                                        <span style="font-weight: 400">We follow an experiential learning approach where children gain knowledge through hands-on activities, exploration, and meaningful experiences. By providing a rich and engaging environment, we help children develop curiosity, confidence, creativity, and a strong foundation for lifelong learning.</span>
                                       </p>
                                     </div>
                                   </div>
@@ -4510,7 +4532,7 @@
                                     data-id="764488c" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                       <img loading="eager" decoding="async" width="900" height="600"
-                                        src="./images/three_steps_learning_new.png" class="blob-animated entrance-anim"
+                                                                                src="./images/indian_preschool_boy_playing_blocks.png" class="blob-animated entrance-anim"
                                         class="attachment-large size-large wp-image-3346" alt="3 Steps of Learning" />
                                     </div>
                                   </div>
@@ -4527,15 +4549,8 @@
                                     class="elementor-element elementor-element-dc1283d elementor-widget elementor-widget-text-editor"
                                     data-id="dc1283d" data-element_type="widget" data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
-                                      <p>
-                                        <span style="font-weight: 400">Our three steps of learning starts
-                                          with concrete activity which is
-                                          hands on experience. The second step
-                                          comes in as analysis through
-                                          questions and answers. And the final
-                                          step is practice through worksheets
-                                          which registers the concept in their
-                                          mind.</span>
+                                      <p class="icon-box-description">
+                                        <span style="font-weight: 400">Our learning process is designed in three simple steps — experience, understanding, and practice. Children first learn through hands-on activities, then explore the concept through discussion and guidance, and finally strengthen their learning through practice. This structured approach ensures clarity, confidence, and strong foundational skills.</span>
                                       </p>
                                     </div>
                                   </div>
@@ -4635,12 +4650,12 @@
                               </style>
                               <div class="n-gallery-3d">
                                 <div class="n-viewport">
-                                  <div class="n-card"><img src="./images/carousel_diverse_5.png"></div>
-                                  <div class="n-card"><img src="./images/carousel_diverse_1.png"></div>
-                                  <div class="n-card"><img src="./images/carousel_diverse_2.png"></div>
-                                  <div class="n-card"><img src="./images/carousel_diverse_3.png"></div>
-                                  <div class="n-card"><img src="./images/carousel_diverse_4.png"></div>
-                                  <div class="n-card"><img src="./images/carousel_diverse_6.png"></div>
+                                                                    <div class="n-card"><img src="./images/carousel_card_1.png"></div>
+                                                                    <div class="n-card"><img src="./images/carousel_card_2.png"></div>
+                                                                    <div class="n-card"><img src="./images/carousel_card_3.png"></div>
+                                                                    <div class="n-card"><img src="./images/carousel_card_4.png"></div>
+                                                                    <div class="n-card"><img src="./images/carousel_card_5.png"></div>
+                                                                    <div class="n-card"><img src="./images/carousel_card_6.png"></div>
                                 </div>
                               </div>
                               <script>
@@ -5386,8 +5401,7 @@
                             data-id="e01c7e7" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                               <p>
-                                <span style="font-weight: 400">Let&#8217;s find what the Nurturing Roots
-                                  have for you!</span>
+                                <span style="font-weight: 400">At The Nurturing Roots, we don&#8217;t just teach; we inspire. Our programs are carefully designed to cater to the developmental needs of children from 2 to 6 years, combining international best practices with deep care. From curiosity-driven play to academic readiness, we prepare every child for a lifetime of success.</span>
                               </p>
                             </div>
                           </div>
@@ -5463,8 +5477,7 @@
                                                                           <div class="elementor-widget-container">
                                                                             <h2
                                                                               class="elementor-heading-title elementor-size-default">
-                                                                              Little
-                                                                              Explorers
+                                                                              Little Explorers (Playgroup)
                                                                             </h2>
                                                                           </div>
                                                                         </div>
@@ -5476,84 +5489,7 @@
                                                                             <p class="icon-box-description">
                                                                               <span style="
                                                                                     font-weight: 400;
-                                                                                  ">An
-                                                                                arrangement
-                                                                                that
-                                                                                facilitates
-                                                                                movement
-                                                                                and
-                                                                                activity
-                                                                                with
-                                                                                beauty
-                                                                                and
-                                                                                harmony
-                                                                                in
-                                                                                a
-                                                                                clean
-                                                                                and
-                                                                                hygienic
-                                                                                environment.
-                                                                                Where
-                                                                                we
-                                                                                help
-                                                                                a
-                                                                                child
-                                                                                in
-                                                                                identification
-                                                                                and
-                                                                                understanding
-                                                                                of
-                                                                                their
-                                                                                learning
-                                                                                needs
-                                                                                between
-                                                                                24
-                                                                                to
-                                                                                36
-                                                                                months
-                                                                                of
-                                                                                age.
-                                                                                We
-                                                                                encourage
-                                                                                exposure
-                                                                                towards
-                                                                                life
-                                                                                skills,
-                                                                                developing
-                                                                                a
-                                                                                habit
-                                                                                of
-                                                                                sharing
-                                                                                and
-                                                                                caring,
-                                                                                social
-                                                                                interaction,
-                                                                                understanding
-                                                                                emotions,
-                                                                                their
-                                                                                expressions
-                                                                                and
-                                                                                fostering
-                                                                                a
-                                                                                strong
-                                                                                base
-                                                                                to
-                                                                                achieve
-                                                                                the
-                                                                                next
-                                                                                milestone.
-                                                                                Little
-                                                                                Explorers
-                                                                                lay
-                                                                                a
-                                                                                strong
-                                                                                foundation
-                                                                                and
-                                                                                develop
-                                                                                eager
-                                                                                learners
-                                                                                for
-                                                                                life.</span>
+                                                                                  ">The Little Explorers program focuses on nurturing a child’s natural curiosity. We introduce basic life skills, sensory development, and social interaction through engaging and safe play activities. Children learn to express themselves and become comfortable in a secure, fun-filled setting.</span>
                                                                             </p>
                                                                           </div>
                                                                         </div>
@@ -5625,8 +5561,7 @@
                                                                           <div class="elementor-widget-container">
                                                                             <h2
                                                                               class="elementor-heading-title elementor-size-default">
-                                                                              Curious
-                                                                              Cubs
+                                                                              Curious Cubs (Nursery)
                                                                             </h2>
                                                                           </div>
                                                                         </div>
@@ -5638,62 +5573,7 @@
                                                                             <p class="icon-box-description">
                                                                               <span style="
                                                                                     font-weight: 400;
-                                                                                  ">We
-                                                                                create
-                                                                                a
-                                                                                stimulating
-                                                                                environment
-                                                                                where
-                                                                                our
-                                                                                Curious
-                                                                                Cubs
-                                                                                get
-                                                                                opportunities
-                                                                                to
-                                                                                explore
-                                                                                and
-                                                                                learn
-                                                                                and
-                                                                                become
-                                                                                lifelong
-                                                                                learners.
-                                                                                We
-                                                                                encourage
-                                                                                their
-                                                                                curiosity
-                                                                                for
-                                                                                language
-                                                                                development,
-                                                                                logical
-                                                                                thinking
-                                                                                and
-                                                                                personality
-                                                                                development
-                                                                                by
-                                                                                fueling
-                                                                                their
-                                                                                imaginations.
-                                                                                We
-                                                                                also
-                                                                                promote
-                                                                                experiential
-                                                                                learning
-                                                                                through
-                                                                                role-plays,
-                                                                                projects
-                                                                                that
-                                                                                help
-                                                                                them
-                                                                                focus.
-                                                                                Our
-                                                                                Curious
-                                                                                Cubs
-                                                                                are
-                                                                                ready
-                                                                                to
-                                                                                spread
-                                                                                their
-                                                                                wings.</span>
+                                                                                  ">In our nursery program, we promote active learning and social skills. We use creative play, storytelling, and hands-on activities to build a strong foundation in language and cognitive development. We encourage children to think and explore.</span>
                                                                             </p>
                                                                           </div>
                                                                         </div>
@@ -5765,9 +5645,7 @@
                                                                           <div class="elementor-widget-container">
                                                                             <h2
                                                                               class="elementor-heading-title elementor-size-default">
-                                                                              Rising
-                                                                              Star
-                                                                              1
+                                                                              Rising Star 1 (Junior KG)
                                                                             </h2>
                                                                           </div>
                                                                         </div>
@@ -5779,53 +5657,7 @@
                                                                             <p class="icon-box-description">
                                                                               <span style="
                                                                                     font-weight: 400;
-                                                                                  ">At
-                                                                                Nurturing
-                                                                                Roots
-                                                                                our
-                                                                                Rising
-                                                                                Stars
-                                                                                curriculum
-                                                                                enhances
-                                                                                understanding
-                                                                                of
-                                                                                concepts
-                                                                                and
-                                                                                observation
-                                                                                skills.
-                                                                                The
-                                                                                children
-                                                                                are
-                                                                                motivated
-                                                                                and
-                                                                                guided
-                                                                                for
-                                                                                predicting
-                                                                                outcomes
-                                                                                based
-                                                                                on
-                                                                                their
-                                                                                previous
-                                                                                learning.
-                                                                                We
-                                                                                emphasize
-                                                                                nurturing
-                                                                                problem
-                                                                                solving
-                                                                                and
-                                                                                independence
-                                                                                in
-                                                                                the
-                                                                                learning
-                                                                                process.
-                                                                                Nurturing
-                                                                                roots
-                                                                                develop
-                                                                                holistically
-                                                                                in
-                                                                                a
-                                                                                conducive
-                                                                                environment.</span>
+                                                                                  ">This stage bridges play and early formal learning. We introduce foundational literacy and numeracy with a focus on logical thinking and social-emotional growth. Through guided exploration, children build the confidence to solve mini-puzzles and share their thoughts.</span>
                                                                             </p>
                                                                           </div>
                                                                         </div>
@@ -5897,9 +5729,7 @@
                                                                           <div class="elementor-widget-container">
                                                                             <h2
                                                                               class="elementor-heading-title elementor-size-default">
-                                                                              Rising
-                                                                              Star
-                                                                              2
+                                                                              Rising Star 2 (Senior KG)
                                                                             </h2>
                                                                           </div>
                                                                         </div>
@@ -5911,82 +5741,7 @@
                                                                             <p class="icon-box-description">
                                                                               <span style="
                                                                                     font-weight: 400;
-                                                                                  ">Through
-                                                                                our
-                                                                                Rising
-                                                                                Stars
-                                                                                program,
-                                                                                our
-                                                                                professionally
-                                                                                trained
-                                                                                teachers
-                                                                                present
-                                                                                a
-                                                                                wide
-                                                                                variety
-                                                                                of
-                                                                                lessons
-                                                                                based
-                                                                                on
-                                                                                mathematical,
-                                                                                logical
-                                                                                and
-                                                                                analytical
-                                                                                thinking
-                                                                                including
-                                                                                numeracy
-                                                                                and
-                                                                                literacy
-                                                                                to
-                                                                                realize
-                                                                                their
-                                                                                full
-                                                                                learning
-                                                                                potential.
-                                                                                We
-                                                                                focus
-                                                                                on
-                                                                                their
-                                                                                Inter
-                                                                                and
-                                                                                Intrapersonal
-                                                                                skills
-                                                                                to
-                                                                                nurture
-                                                                                their
-                                                                                innate
-                                                                                ability
-                                                                                to
-                                                                                become
-                                                                                social
-                                                                                and
-                                                                                responsible
-                                                                                human
-                                                                                beings.
-                                                                                Our
-                                                                                curriculum
-                                                                                is
-                                                                                designed
-                                                                                to
-                                                                                develop
-                                                                                an
-                                                                                emotional
-                                                                                quotient
-                                                                                in
-                                                                                children
-                                                                                at
-                                                                                this
-                                                                                tender
-                                                                                age
-                                                                                to
-                                                                                enhance
-                                                                                their
-                                                                                decision-making
-                                                                                skills
-                                                                                and
-                                                                                foster
-                                                                                leadership
-                                                                                qualities.</span>
+                                                                                  ">Our final preschool stage ensures kids are completely ready for formal schooling. We introduce complex concepts, independent reading, and advanced communication skills. Children leave our program confident, expressive, and eager to continue their educational journey.</span>
                                                                             </p>
                                                                           </div>
                                                                         </div>
@@ -6058,7 +5813,7 @@
                                                                           <div class="elementor-widget-container">
                                                                             <h2
                                                                               class="elementor-heading-title elementor-size-default">
-                                                                              Daycare
+                                                                              Daycare Program
                                                                             </h2>
                                                                           </div>
                                                                         </div>
@@ -6070,58 +5825,7 @@
                                                                             <p>
                                                                               <span style="
                                                                                     font-weight: 400;
-                                                                                  ">We
-                                                                                provide
-                                                                                a
-                                                                                homely
-                                                                                atmosphere
-                                                                                to
-                                                                                children
-                                                                                confirming
-                                                                                high
-                                                                                standards
-                                                                                of
-                                                                                health,
-                                                                                hygiene,
-                                                                                and
-                                                                                comfort.
-                                                                                We
-                                                                                have
-                                                                                passionate
-                                                                                and
-                                                                                caring
-                                                                                teachers
-                                                                                who
-                                                                                personalize
-                                                                                their
-                                                                                experience
-                                                                                to
-                                                                                accommodate
-                                                                                each
-                                                                                child’s
-                                                                                emotional,
-                                                                                social
-                                                                                and
-                                                                                intellectual
-                                                                                temperament.
-                                                                                Working
-                                                                                parents
-                                                                                can
-                                                                                be
-                                                                                rest
-                                                                                assured
-                                                                                that
-                                                                                their
-                                                                                children
-                                                                                are
-                                                                                safe
-                                                                                and
-                                                                                happy
-                                                                                while
-                                                                                they
-                                                                                are
-                                                                                at
-                                                                                work.</span>
+                                                                                  ">Our daycare program provides a safe, nurturing, and professional environment for children whose parents are working. We offer flexible timings, hygienic surroundings, and age-appropriate engagement that ensures every child feels at home while learning through play and social interaction.</span>
                                                                             </p>
                                                                           </div>
                                                                         </div>
@@ -14359,6 +14063,9 @@
         <label>Parent's Name</label>
         <input type="text" name="parent_name" required>
 
+        
+        <label>Email ID</label>
+        <input type="email" name="email" required>
         <label>Phone Number</label>
         <input type="tel" name="phone" required>
 
@@ -14383,13 +14090,53 @@
 
         <label>Your Message</label>
         <textarea name="message" rows="3"></textarea>
-
         <button type="submit" class="submit-btn" style="background:#6c5ce7; font-family: inherit;">Submit
           Enquiry</button>
       </form>
     </div>
   </div>
   <script src="./wp-content/custom-widgets.js"></script>
+  <style>
+    /* Premium scroll reveal animation */
+    .premium-reveal {
+      opacity: 0 !important;
+      transform: translateY(100px) !important;
+      transition: opacity 1.2s cubic-bezier(0.22, 1, 0.36, 1), transform 1.2s cubic-bezier(0.22, 1, 0.36, 1) !important;
+      visibility: visible !important;
+    }
+    .premium-reveal.active {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+  </style>
+  <script>
+    (function() {
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+          }
+        });
+      }, observerOptions);
+
+      function initReveal() {
+        // Target the three specific learning method columns
+        const targets = document.querySelectorAll('[data-id="e7503d1"], [data-id="6b76f4b"], [data-id="9c3e47d"]');
+        targets.forEach(target => {
+          target.classList.add('premium-reveal');
+          observer.observe(target);
+        });
+      }
+
+      if (document.readyState === 'complete') initReveal();
+      else window.addEventListener('load', initReveal);
+    })();
+  </script>
 </body>
 
 </html>

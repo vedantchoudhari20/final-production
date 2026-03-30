@@ -3447,6 +3447,46 @@
     /* If the sub-menu flies right, Daycare will be perfectly visible beneath "Preschool Program" */
   </style>
 
+
+  <style id="nr-premium-image-panning">
+    @keyframes nrKenBurns {
+      0% {
+        transform: scale(1) translateX(0);
+      }
+      50% {
+        transform: scale(1.15) translateX(3%);
+      }
+      100% {
+        transform: scale(1) translateX(0);
+      }
+    }
+
+    /* Target the container to hide the zoom overflow and add premium curves */
+    .elementor-element-a3bd30c .elementor-widget-container {
+      overflow: hidden !important;
+      border-radius: 40px !important; /* Premium rounded look */
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.12) !important; /* Soft shadow */
+      isolation: isolate !important; /* Ensure stacking context */
+      transition: box-shadow 0.5s ease-out !important;
+    }
+
+    .elementor-element-a3bd30c .elementor-widget-container:hover {
+      box-shadow: 0 50px 100px rgba(0, 0, 0, 0.18) !important;
+    }
+
+    /* Apply the panning to the image */
+    .elementor-element-a3bd30c img {
+      animation: nrKenBurns 20s ease-in-out infinite !important;
+      transition: filter 0.8s ease-in-out !important;
+      will-change: transform; /* Hint for browser performance */
+    }
+
+    /* Subtle interaction */
+    .elementor-element-a3bd30c:hover img {
+      filter: contrast(1.05) brightness(1.02) !important;
+    }
+  </style>
+
 </head>
 
   <body
@@ -3735,6 +3775,15 @@
                                   class="sub-menu elementor-nav-menu--dropdown"
                                 >
                                   <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"
+                                  >
+                                    <a
+                                      href="../little-explorers/index.html"
+                                      class="elementor-sub-item menu-link"
+                                      >Little Explorers</a
+                                    >
+                                  </li>
+                                  <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-275 current_page_item menu-item-306"
                                   >
                                     <a
@@ -3742,15 +3791,6 @@
                                       aria-current="page"
                                       class="elementor-sub-item elementor-item-active menu-link"
                                       >Best Day Care Centre in Nerul</a
-                                    >
-                                  </li>
-                                  <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"
-                                  >
-                                    <a
-                                      href="../little-explorers/index.html"
-                                      class="elementor-sub-item menu-link"
-                                      >Little Explorers</a
                                     >
                                   </li>
                                   <li
@@ -3968,6 +4008,16 @@
                                   class="sub-menu elementor-nav-menu--dropdown"
                                 >
                                   <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"
+                                  >
+                                    <a
+                                      href="../little-explorers/index.html"
+                                      class="elementor-sub-item menu-link"
+                                      tabindex="-1"
+                                      >Little Explorers</a
+                                    >
+                                  </li>
+                                  <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-275 current_page_item menu-item-306"
                                   >
                                     <a
@@ -3976,16 +4026,6 @@
                                       class="elementor-sub-item elementor-item-active menu-link"
                                       tabindex="-1"
                                       >Best Day Care Centre in Nerul</a
-                                    >
-                                  </li>
-                                  <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"
-                                  >
-                                    <a
-                                      href="../little-explorers/index.html"
-                                      class="elementor-sub-item menu-link"
-                                      tabindex="-1"
-                                      >Little Explorers</a
                                     >
                                   </li>
                                   <li
@@ -4275,7 +4315,7 @@
                                 <h1
                                   class="elementor-heading-title elementor-size-default"
                                 >
-                                  Best Day Care Centre in Nerul
+                                  The Nurturing Roots Daycare &#038; After-School Program
                                 </h1>
                               </div>
                             </div>
@@ -4356,7 +4396,7 @@
                                         <h3
                                           class="elementor-heading-title elementor-size-default"
                                         >
-                                          Welcome to
+                                          Home away from home
                                         </h3>
                                       </div>
                                     </div>
@@ -4370,8 +4410,7 @@
                                         <h2
                                           class="elementor-heading-title elementor-size-default"
                                         >
-                                          The Best Kids Nursery in Nerul West -
-                                          East &amp; Marunji Pune
+                                          Daycare Program
                                         </h2>
                                       </div>
                                     </div>
@@ -4629,29 +4668,12 @@
                                             display: inline-block;
                                           }
                                         </style>
-                                        <p>
-                                          At The Nurturing Roots Nursery
-                                          Program, we undertake a curriculum
-                                          that is aimed at making a child
-                                          comfortable with everything he is
-                                          going to encounter later in school
-                                          life. This is the period during which
-                                          a child learns the basics that forms
-                                          the fundamentals for higher learning.
-                                          This is the time when a child learns
-                                          manners, discipline and togetherness.
-                                        </p>
-                                        <p>
-                                          We assure a safe, engaging and
-                                          interactive environment for your
-                                          children where they will grow and
-                                          learn the basics effectively through
-                                          play. This is the time when a child
-                                          learns manners, discipline and
-                                          togetherness. A child learns positive
-                                          body language and a sense of
-                                          belongingness.
-                                        </p>
+                                        <p style="margin-bottom: 20px;"><strong>The Nurturing Roots — a home away from home</strong></p>
+                                        <p style="margin-bottom: 20px;">At The Nurturing Roots, our Daycare program is thoughtfully designed to provide children with a safe, warm, and nurturing environment where they feel secure, valued, and cared for throughout the day. We understand the trust parents place in us, and we strive to create a space that truly feels like a second home for every child.</p>
+                                        <p style="margin-bottom: 20px;">Our daycare goes beyond supervision—it is a place where children continue to learn, grow, and explore in a relaxed and comforting setting. With a balanced routine of play, rest, and guided activities, we ensure that each child’s physical, emotional, and social needs are met with care and attention.</p>
+                                        <p style="margin-bottom: 20px;">Children engage in meaningful activities that encourage creativity, independence, and positive social interactions. From storytelling and free play to quiet time and group engagement, every moment is designed to support holistic development while maintaining a sense of comfort and familiarity.</p>
+                                        <p style="margin-bottom: 20px;">We place strong emphasis on building routines, developing good habits, and fostering a sense of belonging. Our caring and attentive staff ensure that every child receives individual attention, helping them feel confident, happy, and secure.</p>
+                                        <p style="margin-bottom: 0;">At The Nurturing Roots, our Daycare is not just a place to stay—it is a nurturing space where children feel at home, form bonds, and continue to blossom every day.</p>
                                       </div>
                                     </div>
                                   </div>
@@ -9954,7 +9976,7 @@
                                         <div class="elementor-button-wrapper">
                                           <a
                                             class="elementor-button elementor-button-link elementor-size-sm"
-                                            href="../become-a-partner/index.html"
+                                            href="../preschool-franchise/index.html"
                                           >
                                             <span
                                               class="elementor-button-content-wrapper"
@@ -10608,13 +10630,9 @@
                                               aria-labelledby="elementor-tab-title-2605"
                                             >
                                               <p>
-                                                You can apply online as well as
-                                                offline for securing admissions
-                                                at The Nurturing Roots Preschool
-                                                and Daycare. Our team will
-                                                respond to your online admission
-                                                request within 24 hours, or you
-                                                can visit the nearest Centre.<br /><br />
+                                                You can fill the enquiry form or
+                                                contact the school for a
+                                                physical meeting.<br /><br />
                                               </p>
                                             </div>
                                           </div>
@@ -14441,6 +14459,9 @@
         <label>Parent's Name</label>
         <input type="text" name="parent_name" required>
 
+        
+        <label>Email ID</label>
+        <input type="email" name="email" required>
         <label>Phone Number</label>
         <input type="tel" name="phone" required>
 
@@ -14474,3 +14495,4 @@
   <script src="../wp-content/custom-widgets.js"></script>
 </body>
 </html>
+

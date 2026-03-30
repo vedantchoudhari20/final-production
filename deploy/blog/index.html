@@ -36,6 +36,21 @@
       src: url("../images/Kid-Knowledge-2-Rustic.otf") format("OpenType");
     }
   </style>
+        <style>
+          /* Make non-highlighted blog posts look static */
+          .elementor-post article, .elementor-posts article.elementor-post {
+            cursor: default !important;
+          }
+          .elementor-post a:not(.latest-blog-read-more), .elementor-posts a:not(.latest-blog-read-more) {
+            pointer-events: none !important;
+            text-decoration: none !important;
+          }
+           /* Ensure highlight section stays active */
+          #dynamic-latest-blogs a, .latest-blog-card a {
+            pointer-events: auto !important;
+            cursor: pointer !important;
+          }
+        </style>
   <meta name="robots" content="max-image-preview:large" />
   <link rel="dns-prefetch" href="//www.googletagmanager.com" />
   <link rel="alternate" type="application/rss+xml" title="The Nurturing Roots &raquo; Feed" href="../feed/index.html" />
@@ -3843,13 +3858,13 @@
                                 Program<span role="application" class="dropdown-menu-toggle ast-header-navigation-arrow"
                                   tabindex="0" aria-expanded="false" aria-label="Menu Toggle"></span></a>
                               <ul class="sub-menu elementor-nav-menu--dropdown">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
-                                  <a href="../kids-nursery-in-nerul/index.html"
-                                    class="elementor-sub-item menu-link">Curious Cubs</a>
-                                </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
                                   <a href="../little-explorers/index.html" class="elementor-sub-item menu-link">Little
                                     Explorers</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
+                                  <a href="../kids-nursery-in-nerul/index.html"
+                                    class="elementor-sub-item menu-link">Curious Cubs</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
                                   <a href="../rising-star-1/index.html" class="elementor-sub-item menu-link">Rising Star
@@ -3940,13 +3955,13 @@
                                   class="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0"
                                   aria-expanded="false" aria-label="Menu Toggle"></span></a>
                               <ul class="sub-menu elementor-nav-menu--dropdown">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
-                                  <a href="../kids-nursery-in-nerul/index.html" class="elementor-sub-item menu-link"
-                                    tabindex="-1">Curious Cubs</a>
-                                </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309">
                                   <a href="../little-explorers/index.html" class="elementor-sub-item menu-link"
                                     tabindex="-1">Little Explorers</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306">
+                                  <a href="../kids-nursery-in-nerul/index.html" class="elementor-sub-item menu-link"
+                                    tabindex="-1">Curious Cubs</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305">
                                   <a href="../rising-star-1/index.html" class="elementor-sub-item menu-link"
@@ -4159,6 +4174,7 @@
                       </div>
                     </div>
                   </section>
+
                   <section
                     class="elementor-section elementor-top-section elementor-element elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="latest-blog-section" data-element_type="section"
@@ -4189,18 +4205,15 @@
                               overflow: hidden;
                               box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
                               transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
-                              max-width: 400px;
+                              width: 320px;
+                              flex: 0 0 320px;
+                              scroll-snap-align: center;
                               margin-bottom: 30px;
                             }
 
                             .latest-blog-card:hover {
                               transform: translateY(-10px);
                               box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
-                            }
-
-                            .latest-blog-image-wrapper {
-                              position: relative;
-                              overflow: hidden;
                             }
 
                             .latest-blog-card img {
@@ -4242,11 +4255,62 @@
                           </style>
 
                           <div id="dynamic-latest-blogs" class="elementor-posts-container"
-                            style="display: flex; flex-wrap: wrap; gap: 30px;">
-                            <!-- FALLBACK CONTENT -->
-                            <div class="latest-blog-card" id="fallback-post">
+                            style="display: flex; overflow-x: auto; gap: 20px; scroll-snap-type: x mandatory; padding-bottom: 20px;">
+
+                            <!-- Static New Age Parenting Blog -->
+                            <div class="latest-blog-card">
                               <div class="latest-blog-image-wrapper">
-                                <a href="#">
+                                <a href="new-age-parenting-guide/index.html">
+                                  <img src="../images/parenting_guide.png" alt="New Age Parenting Guide"
+                                    style="width: 100%; height: 250px; object-fit: cover;">
+                                </a>
+                              </div>
+                              <div class="latest-blog-content">
+                                <span
+                                  style="background: #fff9c4; color: #f9a825; padding: 5px 12px; border-radius: 50px; font-size: 11px; font-weight: 700; text-transform: uppercase;">Insight</span>
+                                <h3
+                                  style="font-family: 'Kids Knowledge', sans-serif; font-size: 24px; margin: 12px 0 8px; line-height: 1.2;">
+                                  New Age Parenting Guide</h3>
+                                <div style="font-size: 13px; color: #999; margin-bottom: 5px;">AUTHOR: The Nurturing
+                                  Roots Team</div>
+                                <p
+                                  style="color: #666; line-height: 1.5; font-size: 14px; font-family: sans-serif; height: 75px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                  Modern parenting in the 2020s. Learn about research-based strategies for emotionally
+                                  healthy, resilient children.</p>
+                                <a href="new-age-parenting-guide/index.html" class="latest-blog-read-more"
+                                  style="font-size: 14px;">Read Full Story →</a>
+                              </div>
+                            </div>
+
+                            <!-- Static Horizontal Learning Blog -->
+                            <div class="latest-blog-card">
+                              <div class="latest-blog-image-wrapper">
+                                <a href="what-is-horizontal-learning-tnr/index.html">
+                                  <img src="../images/horizontal_activity.png" alt="Horizontal Learning Activity"
+                                    style="width: 100%; height: 250px; object-fit: cover;">
+                                </a>
+                              </div>
+                              <div class="latest-blog-content">
+                                <span
+                                  style="background: #fff9c4; color: #f9a825; padding: 5px 12px; border-radius: 50px; font-size: 11px; font-weight: 700; text-transform: uppercase;">Methodology</span>
+                                <h3
+                                  style="font-family: 'Kids Knowledge', sans-serif; font-size: 24px; margin: 12px 0 8px; line-height: 1.2;">
+                                  What is Horizontal Learning?</h3>
+                                <div style="font-size: 13px; color: #999; margin-bottom: 5px;">AUTHOR: The Nurturing
+                                  Roots Team</div>
+                                <p
+                                  style="color: #666; line-height: 1.5; font-size: 14px; font-family: sans-serif; height: 75px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
+                                  Discover the beautiful buzz of activity that makes Horizontal Learning so effective
+                                  at TNR.</p>
+                                <a href="what-is-horizontal-learning-tnr/index.html" class="latest-blog-read-more"
+                                  style="font-size: 14px;">Read Full Story →</a>
+                              </div>
+                            </div>
+
+                            <!-- Upcoming Event Placeholder -->
+                            <div class="latest-blog-card">
+                              <div class="latest-blog-image-wrapper">
+                                <a href="index.html">
                                   <img src="../images/annual_function_2026.png" alt="Annual Function 2026"
                                     style="width: 100%; height: 250px; object-fit: cover;">
                                 </a>
@@ -4262,89 +4326,11 @@
                                   Scheduled for March 14, 2026
                                 </div>
                                 <p style="color: #666; line-height: 1.6; font-size: 15px; font-family: sans-serif;">
-                                  Loading latest updates from our school...</p>
-                                <a href="#" class="latest-blog-read-more">Read Full Story →</a>
+                                  We are preparing for our spectacular Annual Function. Details about the event highlights will be shared here soon!</p>
+                                <a href="index.html" class="latest-blog-read-more">Stay Tuned →</a>
                               </div>
                             </div>
                           </div>
-
-                          <script>
-                            const SHEET_BASE = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTJtOoYLA5nFnaiqOHdUn2MoGCt_V7GRSmPWRrXMlrr35u6U3HYjMiASm6vNcCaYZEGdbHQf_NjqBt0/pub?gid=0&single=true&output=csv';
-
-                            async function fetchLatestBlogs() {
-                              const container = document.getElementById('dynamic-latest-blogs');
-                              // Cache busting
-                              const ts = new Date().getTime();
-                              const sheetUrl = SHEET_BASE + '&t=' + ts;
-
-                              // We use multiple proxies as fallbacks to ensure reliability on file://
-                              const proxies = [
-                                url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-                                url => `https://thingproxy.freeboard.io/fetch/${url}`,
-                                url => url // Direct as last resort
-                              ];
-
-                              for (const getProxyUrl of proxies) {
-                                try {
-                                  const target = getProxyUrl(sheetUrl);
-                                  const controller = new AbortController();
-                                  const timeoutId = setTimeout(() => controller.abort(), 5000); // 5s timeout
-
-                                  const response = await fetch(target, { signal: controller.signal });
-                                  clearTimeout(timeoutId);
-
-                                  if (!response.ok) continue;
-
-                                  const text = await response.text();
-                                  if (!text || text.length < 50) continue;
-
-                                  // Robust CSV splitting
-                                  const rows = text.split(/\r?\n/).slice(1).filter(r => r.trim().length > 0);
-                                  if (rows.length === 0) continue;
-
-                                  let html = '';
-                                  rows.forEach(row => {
-                                    const cols = row.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).map(c => c.trim().replace(/^"|"$/g, ''));
-                                    const [status, title, date, desc, img, link] = cols;
-
-                                    if (title && title.length > 1) {
-                                      html += `
-                                              <div class="latest-blog-card">
-                                                 <div class="latest-blog-image-wrapper">
-                                                    <a href="${link || '#'}">
-                                                       <img src="${img || '../images/latest_blog_placeholder.png'}" alt="${title}" style="width: 100%; height: 250px; object-fit: cover; background: #fafafa;">
-                                                    </a>
-                                                 </div>
-                                                 <div class="latest-blog-content">
-                                                    <span style="background: #fff9c4; color: #f9a825; padding: 5px 12px; border-radius: 50px; font-size: 12px; font-weight: 700; text-transform: uppercase;">${status || 'Update'}</span>
-                                                    <h3 style="font-family: 'Kids Knowledge', sans-serif; font-size: 28px; margin: 15px 0 10px;">${title}</h3>
-                                                    <div style="font-size: 14px; color: #999; margin-bottom: 5px;">${date || ''}</div>
-                                                    <p style="color: #666; line-height: 1.6; font-size: 15px; font-family: sans-serif;">${desc || ''}</p>
-                                                    <a href="${link || '#'}" class="latest-blog-read-more">Read Full Story →</a>
-                                                 </div>
-                                              </div>
-                                           `;
-                                    }
-                                  });
-
-                                  if (html) {
-                                    container.innerHTML = html;
-                                    console.log('Live data loaded via: ' + target);
-                                    return; // Stop after first success
-                                  }
-                                } catch (e) {
-                                  console.warn('Proxy failed, trying next...');
-                                }
-                              }
-                            }
-
-                            // Run on load
-                            if (document.readyState === 'loading') {
-                              window.addEventListener('DOMContentLoaded', fetchLatestBlogs);
-                            } else {
-                              fetchLatestBlogs();
-                            }
-                          </script>
                         </div>
                       </div>
                     </div>
@@ -4365,12 +4351,12 @@
                             data-widget_type="posts.classic">
                             <div class="elementor-widget-container">
                               <link rel="stylesheet"
-                                href="../wp-content/plugins/pro-elements/assets/css/widget-posts.min.css" />
+                                href="javascript:void(0)" />
                               <div
                                 class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
                                 <article
                                   class="elementor-post elementor-grid-item post-3317 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-                                  <a class="elementor-post__thumbnail__link" href="../its-holiday-time/index.html">
+                                  <a class="elementor-post__thumbnail__link" href="javascript:void(0)">
                                     <div class="elementor-post__thumbnail">
                                       <img decoding="async" width="300" height="132" src="../images/blog_holiday.png"
                                         class="attachment-medium size-medium wp-image-3335 blog-exhaustive-anim"
@@ -4379,7 +4365,7 @@
                                   </a>
                                   <div class="elementor-post__text">
                                     <h3 class="elementor-post__title">
-                                      <a href="../its-holiday-time/index.html">
+                                      <a href="javascript:void(0)">
                                         IT’S HOLIDAY TIME!
                                       </a>
                                     </h3>
@@ -4403,7 +4389,7 @@
                                 </article>
                                 <article
                                   class="elementor-post elementor-grid-item post-862 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-                                  <a class="elementor-post__thumbnail__link" href="../nurturing-your-child/index.html">
+                                  <a class="elementor-post__thumbnail__link" href="javascript:void(0)">
                                     <div class="elementor-post__thumbnail">
                                       <img loading="eager" decoding="async" width="300" height="200"
                                         src="../images/blog_nurturing.png"
@@ -4413,7 +4399,7 @@
                                   </a>
                                   <div class="elementor-post__text">
                                     <h3 class="elementor-post__title">
-                                      <a href="../nurturing-your-child/index.html">
+                                      <a href="javascript:void(0)">
                                         Nurturing your child.
                                       </a>
                                     </h3>
@@ -4439,7 +4425,7 @@
                                 <article
                                   class="elementor-post elementor-grid-item post-859 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
                                   <a class="elementor-post__thumbnail__link"
-                                    href="../why-are-we-the-best-preschool-and-daycare-facility-providers/index.html">
+                                    href="javascript:void(0)">
                                     <div class="elementor-post__thumbnail">
                                       <img loading="eager" decoding="async" width="300" height="300"
                                         src="../images/blog_facility.png"
@@ -4450,7 +4436,7 @@
                                   <div class="elementor-post__text">
                                     <h3 class="elementor-post__title">
                                       <a
-                                        href="../why-are-we-the-best-preschool-and-daycare-facility-providers/index.html">
+                                        href="javascript:void(0)">
                                         Why are we the best preschool and
                                         daycare facility providers ?
                                       </a>
@@ -4475,7 +4461,7 @@
                                 </article>
                                 <article
                                   class="elementor-post elementor-grid-item post-856 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
-                                  <a class="elementor-post__thumbnail__link" href="../daycare-in-nerul-west/index.html">
+                                  <a class="elementor-post__thumbnail__link" href="javascript:void(0)">
                                     <div class="elementor-post__thumbnail">
                                       <img loading="eager" decoding="async" width="225" height="300"
                                         src="../images/blog_art_craft.png"
@@ -4485,7 +4471,7 @@
                                   </a>
                                   <div class="elementor-post__text">
                                     <h3 class="elementor-post__title">
-                                      <a href="../daycare-in-nerul-west/index.html">
+                                      <a href="javascript:void(0)">
                                         Best Day Care in Nerul West &#8211;
                                         East ( Navi Mumbai )
                                       </a>
@@ -4576,13 +4562,6 @@
             </article>
             <!-- #post-## -->
           </main>
-          <!-- #main -->
-        </div>
-        <!-- #primary -->
-      </div>
-      <!-- ast-container -->
-    </div>
-    <!-- #content -->
     <div data-elementor-type="footer" data-elementor-id="137" class="elementor elementor-137 elementor-location-footer">
       <div class="elementor-section-wrap">
         <section
@@ -7285,32 +7264,32 @@
                           <div class="elementor-widget-container">
                             <ul class="elementor-icon-list-items">
                               <li class="elementor-icon-list-item">
-                                <a href="../about-us/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">The Best Daycare Provider</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../about-us/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">Best Preschool in Nerul West</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../school-detail/the-nurturing-roots-preschool-daycare/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">Best Preschool in Nerul East</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../best-day-care-centre-in-nerul-pune/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">The Best Daycare Service Provider</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../school-detail/the-nurturing-roots-preschool3/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">TNR Pune Centre</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../contact-us/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">Contact Us</span>
                                 </a>
                               </li>
@@ -7332,22 +7311,22 @@
                           <div class="elementor-widget-container">
                             <ul class="elementor-icon-list-items">
                               <li class="elementor-icon-list-item">
-                                <a href="../privacy-policy/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">Privacy Policy</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../terms-and-conditions/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">Terms and Conditions</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../contact-us/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">Support</span>
                                 </a>
                               </li>
                               <li class="elementor-icon-list-item">
-                                <a href="../faqs/index.html">
+                                <a href="javascript:void(0)">
                                   <span class="elementor-icon-list-text">FAQs</span>
                                 </a>
                               </li>
@@ -8280,6 +8259,9 @@
         <label>Parent's Name</label>
         <input type="text" name="parent_name" required>
 
+        
+        <label>Email ID</label>
+        <input type="email" name="email" required>
         <label>Phone Number</label>
         <input type="tel" name="phone" required>
 
@@ -8314,3 +8296,5 @@
 </body>
 
 </html>
+
+

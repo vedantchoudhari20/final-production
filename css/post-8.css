@@ -1,0 +1,318 @@
+.elementor-8
+  .elementor-element.elementor-element-bbb2a46
+  > .elementor-container {
+  max-width: 1300px;
+}
+.elementor-8
+  .elementor-element.elementor-element-bbb2a46:not(.elementor-motion-effects-element-type-background),
+.elementor-8
+  .elementor-element.elementor-element-bbb2a46
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: var(--e-global-color-1732037);
+  background-image: url("../images/pattern.png");
+  background-size: contain;
+}
+.elementor-8 .elementor-element.elementor-element-bbb2a46 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-8
+  .elementor-element.elementor-element-bbb2a46
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8
+  .elementor-element.elementor-element-30eb965
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-astglobalcolor5);
+  transition: color 0.3s;
+}
+.elementor-8
+  .elementor-element.elementor-element-30eb965
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-astglobalcolor5);
+  transition: fill 0.3s;
+}
+.elementor-8 .elementor-element.elementor-element-30eb965 {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-8
+  .elementor-element.elementor-element-30eb965
+  .elementor-icon-list-icon {
+  padding-right: 7px;
+}
+.elementor-8
+  .elementor-element.elementor-element-30eb965
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-8
+  .elementor-element.elementor-element-30eb965
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+}
+.elementor-8
+  .elementor-element.elementor-element-30eb965
+  .elementor-icon-list-text {
+  color: var(--e-global-color-astglobalcolor5);
+  transition: color 0.3s;
+}
+.elementor-8
+  .elementor-element.elementor-element-b350626
+  .elementor-icon-list-icon
+  i {
+  color: var(--e-global-color-astglobalcolor5);
+  transition: color 0.3s;
+}
+.elementor-8
+  .elementor-element.elementor-element-b350626
+  .elementor-icon-list-icon
+  svg {
+  fill: var(--e-global-color-astglobalcolor5);
+  transition: fill 0.3s;
+}
+.elementor-8 .elementor-element.elementor-element-b350626 {
+  --e-icon-list-icon-size: 18px;
+  --icon-vertical-offset: 0px;
+}
+.elementor-8
+  .elementor-element.elementor-element-b350626
+  .elementor-icon-list-icon {
+  padding-right: 7px;
+}
+.elementor-8
+  .elementor-element.elementor-element-b350626
+  .elementor-icon-list-item
+  > .elementor-icon-list-text,
+.elementor-8
+  .elementor-element.elementor-element-b350626
+  .elementor-icon-list-item
+  > a {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+}
+.elementor-8
+  .elementor-element.elementor-element-b350626
+  .elementor-icon-list-text {
+  color: var(--e-global-color-astglobalcolor5);
+  transition: color 0.3s;
+}
+.elementor-8
+  .elementor-element.elementor-element-d0ea84d
+  > .elementor-container {
+  max-width: 1300px;
+}
+.elementor-bc-flex-widget
+  .elementor-8
+  .elementor-element.elementor-element-4f03ba8.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-8
+  .elementor-element.elementor-element-4f03ba8.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-bc-flex-widget
+  .elementor-8
+  .elementor-element.elementor-element-50739b2.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-8
+  .elementor-element.elementor-element-50739b2.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-menu-toggle {
+  margin-left: auto;
+  background-color: var(--e-global-color-astglobalcolor5);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu
+  .elementor-item {
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  .elementor-item {
+  color: var(--e-global-color-astglobalcolor8);
+  fill: var(--e-global-color-astglobalcolor8);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  .elementor-item:hover,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  .elementor-item.elementor-item-active,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  .elementor-item.highlighted,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  .elementor-item:focus {
+  color: var(--e-global-color-1732037);
+  fill: var(--e-global-color-1732037);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  .elementor-item.elementor-item-active {
+  color: var(--e-global-color-1732037);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-menu-toggle {
+  color: var(--e-global-color-astglobalcolor8);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown {
+  background-color: var(--e-global-color-astglobalcolor5);
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: var(--e-global-color-1732037);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a:hover,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a.elementor-item-active,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a.highlighted,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-menu-toggle:hover {
+  color: var(--e-global-color-astglobalcolor5);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a:hover,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a.elementor-item-active,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a.highlighted {
+  background-color: var(--e-global-color-1732037);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  a.elementor-item-active {
+  color: var(--e-global-color-astglobalcolor5);
+  background-color: var(--e-global-color-1732037);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  .elementor-item,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--dropdown
+  .elementor-sub-item {
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu--main
+  > .elementor-nav-menu
+  > li
+  > .elementor-nav-menu--dropdown,
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  .elementor-nav-menu__container.elementor-nav-menu--dropdown {
+  margin-top: 17px !important;
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  div.elementor-menu-toggle:hover {
+  color: var(--e-global-color-1732037);
+}
+.elementor-8
+  .elementor-element.elementor-element-51bccb1
+  div.elementor-menu-toggle:hover
+  svg {
+  fill: var(--e-global-color-1732037);
+}
+@media (max-width: 1024px) {
+  .elementor-8
+    .elementor-element.elementor-element-51bccb1
+    .elementor-nav-menu--main
+    > .elementor-nav-menu
+    > li
+    > .elementor-nav-menu--dropdown,
+  .elementor-8
+    .elementor-element.elementor-element-51bccb1
+    .elementor-nav-menu__container.elementor-nav-menu--dropdown {
+    margin-top: 10px !important;
+  }
+}
+@media (min-width: 768px) {
+  .elementor-8 .elementor-element.elementor-element-4f03ba8 {
+    width: 17.999%;
+  }
+  .elementor-8 .elementor-element.elementor-element-50739b2 {
+    width: 82.001%;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .elementor-8 .elementor-element.elementor-element-4f03ba8 {
+    width: 20%;
+  }
+  .elementor-8 .elementor-element.elementor-element-50739b2 {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-8
+    .elementor-element.elementor-element-a753c07.elementor-column
+    > .elementor-widget-wrap {
+    justify-content: center;
+  }
+  .elementor-8 .elementor-element.elementor-element-4f03ba8 {
+    width: 40%;
+  }
+  .elementor-8 .elementor-element.elementor-element-50739b2 {
+    width: 60%;
+  }
+} /* Start custom CSS for icon-list, class: .elementor-element-30eb965 */
+.mymarkgin.elementor-widget .elementor-icon-list-icon {
+  align-self: normal;
+  margin-top: 2px !important;
+} /* End custom CSS */
+/* Start custom CSS for nav-menu, class: .elementor-element-51bccb1 */
+.elementor-nav-menu--dropdown {
+  font-size: 15px !important;
+} /* End custom CSS */

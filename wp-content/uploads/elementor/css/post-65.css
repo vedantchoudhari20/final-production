@@ -1,0 +1,112 @@
+.elementor-65
+  .elementor-element.elementor-element-608ea2c:not(.elementor-motion-effects-element-type-background)
+  > .elementor-widget-wrap,
+.elementor-65
+  .elementor-element.elementor-element-608ea2c
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: var(--e-global-color-a1ec886);
+  background-image: url("../../../../images/pattern.png");
+}
+.elementor-65
+  .elementor-element.elementor-element-608ea2c
+  > .elementor-element-populated,
+.elementor-65
+  .elementor-element.elementor-element-608ea2c
+  > .elementor-element-populated
+  > .elementor-background-overlay,
+.elementor-65
+  .elementor-element.elementor-element-608ea2c
+  > .elementor-background-slideshow {
+  border-radius: 20px 20px 20px 20px;
+}
+.elementor-65
+  .elementor-element.elementor-element-608ea2c
+  > .elementor-element-populated {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 20px 20px 20px 20px;
+}
+.elementor-65
+  .elementor-element.elementor-element-608ea2c
+  > .elementor-element-populated
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-65 .elementor-element.elementor-element-f305184 {
+  text-align: center;
+}
+.elementor-65
+  .elementor-element.elementor-element-f305184
+  > .elementor-widget-container {
+  margin: 0px 0px -6px 0px;
+}
+.elementor-65 .elementor-element.elementor-element-edcd02b {
+  text-align: center;
+}
+.elementor-65
+  .elementor-element.elementor-element-edcd02b
+  .elementor-star-rating {
+  font-size: 20px;
+}
+body:not(.rtl)
+  .elementor-65
+  .elementor-element.elementor-element-edcd02b
+  .elementor-star-rating
+  i:not(:last-of-type) {
+  margin-right: 5px;
+}
+body.rtl
+  .elementor-65
+  .elementor-element.elementor-element-edcd02b
+  .elementor-star-rating
+  i:not(:last-of-type) {
+  margin-left: 5px;
+}
+.elementor-65
+  .elementor-element.elementor-element-edcd02b
+  .elementor-star-rating
+  i:before {
+  color: #ffc402;
+}
+.elementor-65
+  .elementor-element.elementor-element-edcd02b
+  > .elementor-widget-container {
+  margin: -15px 0px 0px 0px;
+}
+.elementor-65 .elementor-element.elementor-element-81f69b3 {
+  text-align: center;
+  color: var(--e-global-color-astglobalcolor5);
+  font-family: "Kids Knowledge", Sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+}
+.elementor-65
+  .elementor-element.elementor-element-81f69b3
+  > .elementor-widget-container {
+  margin: 0px 0px -24px 0px;
+  padding: 0px 0px 0px 0px;
+}
+@media (max-width: 767px) {
+  .elementor-65 .elementor-element.elementor-element-f305184 {
+    text-align: center;
+  }
+  .elementor-65 .elementor-element.elementor-element-edcd02b {
+    text-align: center;
+  }
+  .elementor-65 .elementor-element.elementor-element-81f69b3 {
+    text-align: center;
+  }
+} /* Start custom CSS for heading, class: .elementor-element-f305184 */
+.elementor-65 .elementor-element.elementor-element-f305184 h3 {
+  color: white !important;
+} /* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-608ea2c */
+.testi {
+  min-height: 310px;
+}
+@media only screen and (max-width: 767px) {
+  .testi {
+    min-height: 540px;
+  }
+} /* End custom CSS */
