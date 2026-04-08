@@ -3730,16 +3730,22 @@
                   <div class="elementor-widget-container">
                     <link rel="stylesheet" href="./wp-content/plugins/elementor/assets/css/widget-icon-list.min.css" />
                     <ul class="elementor-icon-list-items elementor-inline-items">
-
                       <li class="elementor-icon-list-item elementor-inline-item">
-                        <a href="tel:+91-7838587500">
+                        <a href="tel:+91-7821031637">
                           <span class="elementor-icon-list-icon">
                             <i aria-hidden="true" class="fas fa-phone-alt"></i>
                           </span>
                           <span class="elementor-icon-list-text">+91-7838587500</span>
                         </a>
                       </li>
-
+                      <li class="elementor-icon-list-item elementor-inline-item">
+                        <a href="tel:+91-7838587500">
+                          <span class="elementor-icon-list-icon">
+                            <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                          </span>
+                          <span class="elementor-icon-list-text">+91-7821031637</span>
+                        </a>
+                      </li>
                       <li class="elementor-icon-list-item elementor-inline-item">
                         <a href="mailto:admin@thenurturingroots.com">
                           <span class="elementor-icon-list-icon">
@@ -4492,8 +4498,7 @@
                                     data-id="d08dad9" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                       <img loading="eager" decoding="async" width="900" height="600"
-                                                                                                                        src="./images/indian_child_2.png" class="blob-animated entrance-anim"
-                                        class="attachment-large size-large wp-image-3345" alt="Experiential Learning" />
+                                        src="./images/experiential_learning_painting.png" class="blob-animated entrance-anim attachment-large size-large wp-image-3345" alt="Experiential Learning" />
                                     </div>
                                   </div>
                                   <div
@@ -4526,8 +4531,7 @@
                                     data-id="764488c" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
                                       <img loading="eager" decoding="async" width="900" height="600"
-                                                                                src="./images/indian_preschool_boy_playing_blocks.png" class="blob-animated entrance-anim"
-                                        class="attachment-large size-large wp-image-3346" alt="3 Steps of Learning" />
+                                        src="./images/three_steps_learning_girl.png" class="blob-animated entrance-anim attachment-large size-large wp-image-3346" alt="3 Steps of Learning" />
                                     </div>
                                   </div>
                                   <div
@@ -4641,15 +4645,68 @@
                                     height: 450px;
                                   }
                                 }
+
+                                .n-card::after {
+                                  content: "#" attr(data-index);
+                                  position: absolute;
+                                  top: 15px;
+                                  left: 15px;
+                                  background: rgba(255, 107, 107, 0.9);
+                                  color: white;
+                                  width: 35px;
+                                  height: 35px;
+                                  display: flex;
+                                  align-items: center;
+                                  justify-content: center;
+                                  border-radius: 50%;
+                                  font-size: 16px;
+                                  font-weight: bold;
+                                  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                                  z-index: 100;
+                                  pointer-events: none;
+                                  border: 2px solid white;
+                                  opacity: 0;
+                                  transition: opacity 0.3s ease;
+                                }
+
+                                .n-card.show-id::after {
+                                  opacity: 1;
+                                }
+
+                                #id-toggle-btn {
+                                  position: fixed;
+                                  bottom: 20px;
+                                  right: 20px;
+                                  z-index: 999999;
+                                  background: #ff6b6b;
+                                  color: white;
+                                  padding: 12px 24px;
+                                  border-radius: 50px;
+                                  cursor: pointer;
+                                  font-family: 'Kid-Knowledge-1', sans-serif;
+                                  font-size: 16px;
+                                  box-shadow: 0 10px 25px rgba(255, 107, 107, 0.4);
+                                  border: none;
+                                  transition: all 0.3s ease;
+                                  display: flex;
+                                  align-items: center;
+                                  gap: 8px;
+                                }
+
+                                #id-toggle-btn:hover {
+                                  transform: translateY(-5px);
+                                  box-shadow: 0 15px 30px rgba(255, 107, 107, 0.5);
+                                  background: #ff5252;
+                                }
                               </style>
                               <div class="n-gallery-3d">
                                 <div class="n-viewport">
-                                                                    <div class="n-card"><img src="./images/carousel_card_1.png"></div>
-                                                                    <div class="n-card"><img src="./images/carousel_card_2.png"></div>
-                                                                    <div class="n-card"><img src="./images/carousel_card_3.png"></div>
-                                                                    <div class="n-card"><img src="./images/carousel_card_4.png"></div>
-                                                                    <div class="n-card"><img src="./images/carousel_card_5.png"></div>
-                                                                    <div class="n-card"><img src="./images/carousel_card_6.png"></div>
+                                  <div class="n-card" data-index="1"><img src="./images/carousel_card_1.png"></div>
+                                  <div class="n-card" data-index="2"><img src="./images/carousel_card_2.png"></div>
+                                  <div class="n-card" data-index="3"><img src="./images/carousel_card_3.png"></div>
+                                  <div class="n-card" data-index="4"><img src="./images/carousel_card_4.png"></div>
+                                  <div class="n-card" data-index="5"><img src="./images/carousel_card_5.png"></div>
+                                  <div class="n-card" data-index="6"><img src="./images/carousel_card_6.png"></div>
                                 </div>
                               </div>
                               <script>
@@ -4688,6 +4745,20 @@
                                     document.addEventListener('mouseup', end);
                                     document.addEventListener('touchend', end);
                                     upd(); window.addEventListener('resize', upd);
+
+                                    // Create toggle button
+                                    const toggle = document.createElement('button');
+                                    toggle.id = 'id-toggle-btn';
+                                    toggle.innerHTML = '<span>🔍</span> Identify Images';
+                                    document.body.appendChild(toggle);
+
+                                    toggle.onclick = () => {
+                                      const cards = container.querySelectorAll('.n-card');
+                                      const isShown = cards[0].classList.contains('show-id');
+                                      cards.forEach(c => c.classList.toggle('show-id'));
+                                      toggle.innerHTML = isShown ? '<span>🔍</span> Identify Images' : '<span>✅</span> Hide IDs';
+                                      toggle.style.background = isShown ? '#ff6b6b' : '#4ecdc4';
+                                    };
                                   }
                                   window.initNurturingGallery = function () { document.querySelectorAll('.n-gallery-3d').forEach(startGallery); }
                                   if (document.readyState === 'complete') window.initNurturingGallery();
@@ -6020,9 +6091,9 @@
                             class="elementor-element elementor-element-96e2eb1 elementor-widget elementor-widget-image"
                             data-id="96e2eb1" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                              <img loading="eager" decoding="async" width="900" height="600"
-                                src="./images/New-Project-14.jpg" class="attachment-large size-large wp-image-3348"
-                                alt="" />
+                               <img loading="eager" decoding="async" width="900" height="600"
+                                src="./images/indian_girl_student_clock_v2.png" 
+                                class="attachment-large size-large wp-image-3348" alt="7 Roots of Education" />
                             </div>
                           </div>
                         </div>
@@ -12868,12 +12939,12 @@
                                 admin@thenurturingroots.com</span>
                             </li>
                             <li class="elementor-icon-list-item">
-                              <a href="tel:%20+91-9987090631">
+                              <a href="tel:%20+91-7838587500">
                                 <span class="elementor-icon-list-icon">
                                   <i aria-hidden="true" class="fas fa-phone-alt"></i>
                                 </span>
                                 <span class="elementor-icon-list-text">
-                                  +91-9987090631</span>
+                                  +91-7838587500</span>
                               </a>
                             </li>
                           </ul>
